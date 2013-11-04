@@ -7,5 +7,5 @@
 tag_one: 
   title: "Tag_A"
   topics: topic_one
-tag_two: {}
+tag_two: 
   title: "Tag_B"
