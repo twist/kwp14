@@ -11,3 +11,23 @@
  *= require_self
  *= require_tree .
  */
+
+
+
+div#top_bar {
+    text-align:right;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    padding:4px;
+
+    background-color:#ff5555;
+
+}
+
+span.top_bar_element {
+    border-left-width:1px;
+    border-left-style:solid;
+    padding:4px;
+
+}
+

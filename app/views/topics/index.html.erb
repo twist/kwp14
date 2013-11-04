@@ -1,0 +1,26 @@
+
+<h1> Themen </h1>
+
+<table >
+<% @topics.each do |t| %>
+  <tr class="topic">
+    <td valign="top">
+      <div class="topic_title" style="margin-right:40px">
+        <%= t.title %>
+      </div>
+    </td>
+    <td valign="top">
+      <div class="topic_menu" style="float:left; width=300px; margin-right:40px">
+        <div class="topic_menu_item"> bewerten </div>
+        <div class="topic_menu_item" > kommentieren </div>
+      </div>
+    </td>
+    <td valign="top">
+      <div class="topic_content" style="float:left;">
+        <%= t.body %>
+      </div>
+    </td>
+  </tr >
+<% end %>
+
+</table>
