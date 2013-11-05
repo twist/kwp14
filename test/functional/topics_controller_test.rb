@@ -8,5 +8,9 @@ class TopicsControllerTest < ActionController::TestCase
     assert_response :success
     assert_match "Themen", @response.body
 
+    topics = Topic.all();
+
+    assert_match(topics.first.title, @response.body);
+
   end
 end
