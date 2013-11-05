@@ -13,4 +13,15 @@ class TopicsControllerTest < ActionController::TestCase
     assert_match(topics.first.title, @response.body);
 
   end
+
+
+  def test_view
+
+    topic = Topic.first();
+    get :show, :id => topic.id
+    assert_response :success
+
+
+
+  end
 end
