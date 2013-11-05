@@ -7,4 +7,12 @@ class TopicsController < ApplicationController
     
   end
 
+  def view
+    @id = params(:id)
+    @topic = Topic.find(@id)
+    @comments = @topic.comments
+
+
+  end
+
 end
