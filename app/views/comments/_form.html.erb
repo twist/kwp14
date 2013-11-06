@@ -1,6 +1,7 @@
 
 
 <%= form_for @comment do |f| %>
- <%= f.text_area :body %>
+ 
+ <%= f.text_area :body, cols: 120, rows: 10 %>
  <%= f.submit 'absenden' %>
 <% end %>
