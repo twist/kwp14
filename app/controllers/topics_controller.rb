@@ -11,6 +11,7 @@ class TopicsController < ApplicationController
     @id = params[:id]
     @topic = Topic.find(@id)
     @comment = Comment.new() #for the form partial
+    @comment.topic = @topic
     @comments = @topic.comments
 
 

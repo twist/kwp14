@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
   def create
     @data = params[:comment]
 
-    c = comment.new(@data);
+    c = Comment.new(@data);
     c.save!
 
     

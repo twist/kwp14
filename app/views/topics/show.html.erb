@@ -9,4 +9,10 @@
   <%= render :partial => 'comments/form' %>
 </div>
 <div id="all_comments">
+  <% @comments.each do |c| %>
+    <p>
+      <%= c.body %>
+    </p>
+  <% end %>
+
 </div>
