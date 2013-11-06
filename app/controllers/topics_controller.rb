@@ -10,6 +10,7 @@ class TopicsController < ApplicationController
   def show
     @id = params[:id]
     @topic = Topic.find(@id)
+    @comment = Comment.new() #for the form partial
     @comments = @topic.comments
 
 
