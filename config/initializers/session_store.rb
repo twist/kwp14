@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-Tvote::Application.config.session_store :cookie_store, key: '_tvote_session'
+Kwp14::Application.config.session_store :cookie_store, key: '_kwp14_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# Tvote::Application.config.session_store :active_record_store
+# Kwp14::Application.config.session_store :active_record_store
