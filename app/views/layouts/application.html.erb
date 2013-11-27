@@ -8,6 +8,20 @@
 </head>
 <body>
 
+  <% unless flash.empty? %>
+    <!-- 
+      <script type="text/javascript">
+        onload()
+        {
+          alert(<%=flash[:notice]%>);
+        };
+      </script>
+    -->
+  <%end%>
+  <%= flash[:notice] %>
+
+          
+
   <div id="top_bar" >
     <span class="top_bar_element"> <%= link_to 'start', topics_path %> </span>
     <span class="top_bar_element"> suche </span>

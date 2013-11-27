@@ -1,4 +1,5 @@
 class TopicsController < ApplicationController
+  before_filter :require_user, :only => :show
 
 
 
