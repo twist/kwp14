@@ -5,8 +5,10 @@
   <%= @topic.body %>
 </div>
 <% if current_user %>
+  <div id="new_vote">
+    <%= render :partial => 'votes/form' %>
+  </div>
   <div id="new_comment">
-    <h2> kommentieren: </h2> <br />
     <%= render :partial => 'comments/form' %>
   </div>
 <%end%>
