@@ -13,6 +13,7 @@ class TopicsController < ApplicationController
     @topic = Topic.find(@id)
     @comment = Comment.new() #for the form partial
     @comment.topic = @topic
+    @comment.user = current_user
     @comments = @topic.comments
 
 
