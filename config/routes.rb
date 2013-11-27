@@ -61,5 +61,8 @@ Kwp14::Application.routes.draw do
   
   resources :topics 
   resources :comments 
+  resources :users 
+  resources :user_sessions 
+   match 'logout' => 'user_sessions#destroy', :as => :logout
   root :to => 'topics#index'
 end

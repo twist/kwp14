@@ -1,10 +1,11 @@
 require 'test_helper'
+require 'authlogic/test_case'
 
 class UserLifecycleTest < ActionDispatch::IntegrationTest
 
  
   def setup
-
+    activate_authlogic
   end
 
   def test_not_logged_in
@@ -26,11 +27,6 @@ class UserLifecycleTest < ActionDispatch::IntegrationTest
     assert_response :redirect
     new_user_count = User.all.length
     assert_equal new_user_count, old_user_count+1
-
-
-
-
-
   end
 
   def create_new_user_data

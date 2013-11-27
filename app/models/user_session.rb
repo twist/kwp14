@@ -1,4 +1,4 @@
-class UserSession < ActiveRecord::Base
+class UserSession < Authlogic::Session::Base
   # attr_accessible :title, :body
 
   def to_key
