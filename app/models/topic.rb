@@ -3,5 +3,24 @@ class Topic < ActiveRecord::Base
 
   has_and_belongs_to_many :tags
   has_many :comments
+  has_many :votes
+
+  def rating
+
+    if votes.size == 0
+      return 0
+    end
+
+    sum_of_votes = 0
+    votes.each do |v|
+      sum_of_votes += v.value
+    end
+    topic_rating = sum_of_votes / votes.size
+    topic_rating.round(2)
+
+  end
+
+
+
 
 end
