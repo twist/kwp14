@@ -31,3 +31,14 @@ span.top_bar_element {
 
 }
 
+div.topic_rating {
+    font-size: 30pt;
+    text-align:center;
+    margin:5px;
+
+}
+div.topic_menu {
+    margin:0 auto;
+    
+
+}
