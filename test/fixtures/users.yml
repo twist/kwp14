@@ -4,6 +4,25 @@
 ben:
   first_name: Frank
   last_name: Lehmann
+  id: 1
+  email: f@l.de
+  password_salt: <%= salt = Authlogic::Random.hex_token %>
+  crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("abcd" + salt) %>
+  persistence_token: <%= Authlogic::Random.hex_token %>
+
+horst:
+  first_name: horst
+  last_name: herold
+  id: 2
+  email: f@l.de
+  password_salt: <%= salt = Authlogic::Random.hex_token %>
+  crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("abcd" + salt) %>
+  persistence_token: <%= Authlogic::Random.hex_token %>
+
+frauke:
+  first_name: Frauke
+  last_name: Schubert
+  id: 3
   email: f@l.de
   password_salt: <%= salt = Authlogic::Random.hex_token %>
   crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("abcd" + salt) %>
