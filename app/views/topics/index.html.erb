@@ -3,7 +3,7 @@
 
 <table >
 <% @topics.each do |t| %>
-  <tr class="topic">
+  <tr style="border-bottom:1px solid black; padding-bottom:10px">
     <td valign="top">
       <div class="topic_title" style="margin-right:40px">
         <%= t.title %>
@@ -20,7 +20,9 @@
         <%= t.body %>
       </div>
     </td>
+    <hruler>
   </tr >
+  
 <% end %>
 
 </table>

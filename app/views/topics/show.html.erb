@@ -13,15 +13,21 @@
   </div>
 <%end%>
 <div id="all_comments">
+  <% even = false %>
   <% @comments.each do |c| %>
-  <div class="comment">
-    <span class="comment_body">
-      <%= c.body %>
-    </span> - 
-    <span class="comment_author">
-      <%= c.user.first_name %> <%= c.user.last_name%>, <%=c.created_at %>
-    </span>
-  </div>
+    <% if even %>
+      <div class="comment" style="background-color:#dddddd" >
+    <%else%>
+      <div class="comment"  >
+    <%end%>
+      <span class="comment_body">
+        <%= simple_format c.body %>
+      </span> - 
+      <span class="comment_author">
+        <%= c.user.first_name %> <%= c.user.last_name%>, <%=c.created_at %>
+      </span>
+    </div>
+  <% even = !even %>
   <% end %>
 
 </div>
