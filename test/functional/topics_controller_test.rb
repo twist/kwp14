@@ -2,6 +2,10 @@ require 'test_helper'
 
 class TopicsControllerTest < ActionController::TestCase
 
+  def setup
+
+  end
+
   def test_index
 
     get :index

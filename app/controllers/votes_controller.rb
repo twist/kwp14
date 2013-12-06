@@ -14,7 +14,7 @@ class VotesController < ApplicationController
     @vote = Vote.new(params[:vote])
     respond_to do |format|
       if @vote.save
-        format.html { redirect_to :back, notice: 'Vote was successfully created.' }
+        format.html { redirect_to :back, notice: "Sie haben mit \"#{@vote.value}\" abgestimmt" }
         format.json { render json: @vote, status: :created, location: @vote }
       else
         format.html { render action: "new" }
@@ -30,7 +30,7 @@ class VotesController < ApplicationController
 
     respond_to do |format|
       if @vote.update_attributes(params[:vote])
-        format.html { redirect_to :back, notice: 'Vote was successfully updated.' }
+        format.html { redirect_to :back, notice: "Sie haben mit \"#{@vote.value}\" abgestimmt" }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
