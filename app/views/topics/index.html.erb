@@ -3,14 +3,14 @@
 
 <table >
 <% @topics.each do |t| %>
-  <tr style="border-bottom:1px solid black; padding-bottom:10px">
+  <tr style="border-bottom:1px solid black; padding-bottom:40px; margin-bottom:40px">
     <td valign="top">
       <div class="topic_menu" style="float:left; width=300px; margin-right:40px">
         <div class="topic_rating"> <%= link_to t.rating, topic_path(t.id) %> </div>
         <!--div class="topic_menu_item"> <%= link_to 'bewerten', topic_path(t.id)  %> </div-->
       </div>
     </td>
-    <td valign="center">
+    <td valign="top">
       <div class="topic_title" style="margin-right:40px">
         <%= t.title %>
       </div>
