@@ -37,8 +37,9 @@ div.topic_rating {
     margin:5px;
 
 }
-div.topic_menu {
+div.topic_title {
     margin:0 auto;
+    font-size: 20pt;
     
 
 }
