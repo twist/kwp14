@@ -13,15 +13,25 @@
  <%= f.hidden_field :topic_id %> 
  <%= f.hidden_field :user_id %> 
   <span class="field">
-    -
-    <% (1..10).to_a.each do |n| %>
-      <%if @old_vote  and @old_vote.value == n%>
-      <%= f.radio_button :value ,n , {:checked => true }%>
-      <%else%>
-      <%= f.radio_button :value ,n %>
-      <%end%>
-    <%end%>
-    +
+    <table style="text-align:center;">
+      <tr>
+        <% (-4..4).to_a.each do |n| %>
+          <td> 
+            <%if @old_vote  and @old_vote.value == n%>
+              <%= f.radio_button :value ,n , {:checked => true }%>
+            <%else%>
+              <%= f.radio_button :value ,n %>
+            <%end%>
+          </td>
+        <%end%>
+      </tr>
+      <tr>
+        <% (-4..4).to_a.each do |n| %>
+        <td> <%= n %> </td>
+        <%end%>
+      </tr>
+    </table>
+
   </span>
   <span class="actions">
     <%= f.submit  "bewerten"%>
