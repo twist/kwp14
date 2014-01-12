@@ -20,6 +20,16 @@ class Topic < ActiveRecord::Base
 
   end
 
+  def has_tag(tag)
+    tags.each do |t|
+      if t.title == tag
+        return true
+      end
+    end
+    return false
+
+  end
+
 
 
 

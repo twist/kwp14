@@ -5,6 +5,17 @@ class TopicsController < ApplicationController
 
   def index
     @topics = Topic.all()
+
+    if(params[:filter])
+      filter_param = params[:filter]
+      @topics_filtered = [];
+      @topics.each do |t|
+        if t.has_tag(filter_param)
+          @topics_filtered.push t
+        end
+      end
+      @topics = @topics_filtered
+    end
     
   end
 
