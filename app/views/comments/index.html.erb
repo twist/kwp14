@@ -1,0 +1,27 @@
+
+<h1> Kommentare (Neueste zuerst)</h1>
+
+<table >
+  <tr style="text-align=left;">
+    <th align="left"> Thema </th>
+    <th align="left"> Kommentar </th>
+  </tr>
+<% @comments.each do |c| %>
+  <tr style="border-bottom:1px solid black; padding-bottom:40px; margin-bottom:40px">
+    <td valign="center">
+      <div class="topic_title" style="margin-right:40px">
+        [<%= link_to c.topic.id, topic_path(:id => c.topic.id), {:title => c.topic.body} %>] <br />
+      </div>
+    </td>
+    <td valign="top">
+      <div class="comment_content">
+        <%= simple_format c.body %>  
+        <%= c.user.first_name %> <%= c.user.last_name%>, <%=c.created_at %>
+      </div>
+    </td>
+    <hruler>
+  </tr >
+  
+<% end %>
+
+</table>

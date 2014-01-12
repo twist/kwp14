@@ -33,7 +33,7 @@ class ApplicationController < ActionController::Base
   def require_user
     unless current_user
       flash[:notice] = "Bitte melden Sie sich an um diese Funktionalität zu nutzen"
-      redirect_to :back 
+      redirect_to topics_path 
       return false
 
     end

@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_filter :require_user
 
   def create
     @data = params[:comment]
@@ -9,6 +10,12 @@ class CommentsController < ApplicationController
     
     redirect_to request.referer 
 
+
+  end
+
+  def index
+
+    @comments = Comment.all().reverse;
 
   end
 
