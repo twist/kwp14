@@ -1,11 +1,49 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+Arbeit:
+  title: Arbeit
+Armut:
+  title: Armut
+Barrierefreiheit:
+  title: Barrierefreiheit
+Beteiligung:
+  title: Beteiligung
+Bildung:
+  title: Bildung
+Familie:
+  title: Familie
+Geschichte:
+  title: Geschichte
+Gesundheit:
+  title: Gesundheit
+Internationalität:
+  title: Internationalität
+Jugend:
+  title: Jugend
+Kinder:
+  title: Kinder
+Kultur :
+  title: Kultur 
+Lebensweisen:
+  title: Lebensweisen
+Mobilität:
+  title: Mobilität
+Senioren:
+  title: Senioren
+SeniorInnen:
+  title: SeniorInnen
+Sicherheit:
+  title: Sicherheit
+Soziales:
+  title: Soziales
+Sport:
+  title: Sport
+Stadtentwicklung:
+  title: Stadtentwicklung
+Umwelt:
+  title: Umwelt
+Wirtschaft:
+  title: Wirtschaft
+Wissenschaft:
+  title: Wissenschaft
+Wohnen:
+  title: Wohnen
 
-# This model initially had no columns defined.  If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-tag_one: 
-  title: "Tag_A"
-  topics: topic_one
-tag_two: 
-  title: "Tag_B"
