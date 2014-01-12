@@ -19,22 +19,44 @@
     -->
   <%end%>
   <%= flash[:notice] %>
+  
 
-          
+<script type="text/javascript">
+<!--
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'block')
+e.style.display = 'none';
+else
+e.style.display = 'block';
+}
+//-->
+</script> 
 
   <div id="top_bar" >
     <span class="title"> KWP14 </span>
     <span class="top_bar_element"> <%= link_to 'start', topics_path %> </span>
     <span class="top_bar_element"> <%= mail_to 'tilo.kieszling@dielinke-dresden.de', "kontakt", :subject => "KWP 14" %> </span>
     <span class="top_bar_element"> suche </span>
-    <span class="top_bar_element"> sortiere </span>
-    <span class="top_bar_element"> filter </span>
+    <span class="top_bar_element"> <a href="#" onclick="toggle_visibility('sort_list');">sortiere</a> </span>
+    <span class="top_bar_element"> <a href="#" onclick="toggle_visibility('filter_list');">filter</a> </span>
     <% if current_user %>
       <span class="top_bar_element"> <%= link_to 'log out', :logout %> </span>
     <% else %>
       <span class="top_bar_element"> <%= link_to 'log in', new_user_session_path %> </span>
       <span class="top_bar_element"> <%= link_to 'registrieren', new_user_path %> </span>
-    <%end%>
+      <%end%>
+      <br  />
+      <div id="filter_list" style="display:none">
+        <% filter_list.each do |filter| %>
+        <span class="top_bar_element" > <%= link_to filter, topics_path(:filter => filter) %>  </span>
+        <%end%>
+      </div>
+      <div id="sort_list" style="display:none">
+        <% sort_list.each do |sort| %>
+        <span class="top_bar_element" > <%= link_to sort, topics_path(:sort => sort) %>  </span>
+        <%end%>
+      </div>
   </div>
 
   <div id="side bar">

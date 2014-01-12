@@ -13,7 +13,7 @@
     <td valign="top">
       <div class="topic_title" style="margin-right:40px">
         <% t.tags.each do |tag| %>
-        [<%= tag.title %>] <br />
+        [<%= link_to tag.title, topics_path(:filter => tag.title) %>] <br />
         <% end %>
       </div>
     </td>
