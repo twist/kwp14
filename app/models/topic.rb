@@ -13,6 +13,7 @@ class Topic < ActiveRecord::Base
 
     sum_of_votes = 0
     votes.each do |v|
+      v.value = 0 if v.value.nil?
       sum_of_votes += v.value
     end
     topic_rating = sum_of_votes / votes.size
