@@ -16,6 +16,13 @@ class TopicsController < ApplicationController
       end
       @topics = @topics_filtered
     end
+
+   # if(params[:sort]
+   #    sort_param = params[:sort]
+   #    case 
+   #    @topics.sort! {|a,b| a.id <=> b.id}
+
+   # end
     
   end
 

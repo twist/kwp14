@@ -10,7 +10,9 @@
   <tr style="border-bottom:1px solid black; padding-bottom:40px; margin-bottom:40px">
     <td valign="center">
       <div class="topic_title" style="margin-right:40px">
+        <% unless c.topic.nil? %>
         [<%= link_to c.topic.id, topic_path(:id => c.topic.id), {:title => c.topic.body} %>] <br />
+        <% end %>
       </div>
     </td>
     <td valign="top">
