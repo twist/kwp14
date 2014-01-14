@@ -17,7 +17,7 @@ class VotesController < ApplicationController
         format.html { redirect_to topics_path, notice: "Sie haben mit \"#{@vote.value}\" abgestimmt" }
         format.json { render json: @vote, status: :created, location: @vote }
       else
-        format.html { redirect_to topics_path, notice: "Sie können keine leeren Bewertungen abgeben" }
+        format.html { redirect_to :back, notice: "Sie koennen keine leeren Bewertungen abgeben" }
         format.json { render json: @vote.errors, status: :unprocessable_entity }
       end
     end
