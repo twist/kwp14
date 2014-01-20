@@ -21,6 +21,10 @@ class Topic < ActiveRecord::Base
 
   end
 
+  def date_of_last_comment
+    comments.last.nil? ?  Time.new(2002) : comments.last.created_at
+  end
+
   def has_tag(tag)
     tags.each do |t|
       if t.title == tag

@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
   end
 
   def sort_list
-    return ["Bewertung", "Nummer", "Neueste Kommentare"]
+    return ["Bewertungen", "Kommentare"]
   end
     
       

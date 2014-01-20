@@ -6,23 +6,26 @@ class TopicsController < ApplicationController
   def index
     @topics = Topic.all()
 
-    if(params[:filter])
-      filter_param = params[:filter]
+    session[:filter_param] = params[:filter] if params[:filter]
+    if(session[:filter_param] and session[:filter_param]!="no")
       @topics_filtered = [];
       @topics.each do |t|
-        if t.has_tag(filter_param)
+        if t.has_tag(session[:filter_param])
           @topics_filtered.push t
         end
       end
       @topics = @topics_filtered
     end
 
-   # if(params[:sort]
-   #    sort_param = params[:sort]
-   #    case 
-   #    @topics.sort! {|a,b| a.id <=> b.id}
-
-   # end
+    session[:sort_param] = params[:sort] if params[:sort]
+    if(session[:sort_param] and session[:sort_param]!="no")
+       case session[:sort_param]
+       when "Bewertungen" 
+         then @topics.sort! {|a,b| a.rating <=> b.rating}
+       when "Kommentare"
+         then @topics.sort! {|a,b| b.date_of_last_comment <=> a.date_of_last_comment}
+       end
+    end
     
   end
 
