@@ -59,10 +59,12 @@ class UserLifecycleTest < ActionDispatch::IntegrationTest
     assert_match('bewerten', @response.body);
 
     @old_vote_count = Vote.all.count
+
     post 'votes', {:vote => { :value => 3,
                             :user_id => @user.id,
                             :topic_id => @topic.id} },
                 {'HTTP_REFERER' => "topics/#{@topic.id}"}
+
     @vote = Vote.last
     assert_response :redirect
     get topic_path(@topic.id),{}, {'HTTP_REFERER' => @http_referer}

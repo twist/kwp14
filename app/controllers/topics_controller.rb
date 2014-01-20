@@ -21,7 +21,7 @@ class TopicsController < ApplicationController
     if(session[:sort_param] and session[:sort_param]!="no")
        case session[:sort_param]
        when "Bewertungen" 
-         then @topics.sort! {|a,b| a.rating <=> b.rating}
+         then @topics.sort! {|a,b| b.rating <=> a.rating}
        when "Kommentare"
          then @topics.sort! {|a,b| b.date_of_last_comment <=> a.date_of_last_comment}
        end
