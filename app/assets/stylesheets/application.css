@@ -43,3 +43,7 @@ div.topic_title {
     
 
 }
+
+td.main_table {
+    border-bottom: 1px dotted #000;
+}
