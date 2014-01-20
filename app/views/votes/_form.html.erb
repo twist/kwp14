@@ -15,7 +15,8 @@
   <span class="field">
     <table style="text-align:center;">
       <tr>
-        <% (-4..4).to_a.each do |n| %>
+        <td></td>
+        <% (0..5).to_a.each do |n| %>
           <td> 
             <%if @old_vote  and @old_vote.value == n%>
               <%= f.radio_button :value ,n , {:checked => true }%>
@@ -24,11 +25,14 @@
             <%end%>
           </td>
         <%end%>
+        <td></td>
       </tr>
       <tr>
-        <% (-4..4).to_a.each do |n| %>
+        <td> Unwichtig </td>
+        <% (0..5).to_a.each do |n| %>
         <td> <%= n %> </td>
         <%end%>
+        <td> Wichtig </td>
       </tr>
     </table>
 
