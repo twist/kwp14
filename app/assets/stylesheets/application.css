@@ -24,6 +24,12 @@ div#top_bar {
 
 }
 
+div#topic_body {
+
+    font-size: 20pt;
+    line-height:20pt;
+
+}
 span.top_bar_element {
     border-left-width:1px;
     border-left-style:solid;
