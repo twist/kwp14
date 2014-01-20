@@ -6,7 +6,7 @@
   <tr style="border-bottom:1px solid black; padding-bottom:40px; margin-bottom:40px">
     <td valign="top">
       <div class="topic_menu" style="float:left; min-height:40px; width=300px; margin-right:40px">
-        <div class="topic_rating"> <%= link_to t.rating, topic_path(t.id) %> </div>
+        <div class="topic_rating"> <%= t.rating %> </div>
         <!--div class="topic_menu_item"> <%= link_to 'bewerten', topic_path(t.id)  %> </div-->
       </div>
     </td>
@@ -19,7 +19,7 @@
     </td>
     <td valign="center">
       <div class="topic_content" style="float:left;">
-        <%= t.body %>
+        <%= link_to t.body, topic_path(t.id) %>
       </div>
     </td>
     <hruler>
