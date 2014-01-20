@@ -36,7 +36,7 @@ e.style.display = 'block';
   <div id="top_bar" >
     <span class="title"> KWP14 </span>
     <span class="top_bar_element"> <%= link_to 'start', topics_path %> </span>
-    <span class="top_bar_element"> <%= mail_to 'tilo.kieszling@dielinke-dresden.de', "kontakt", :subject => "KWP 14" %> </span>
+    <span class="top_bar_element"> <%= mail_to 'kontakt@dielinke-dresden.de', "kontakt", :subject => "KWP 14" %> </span>
     <span class="top_bar_element"> <%= link_to "Neueste Kommentare", comments_path %> </span>
     <span class="top_bar_element"> <a href="#" onclick="toggle_visibility('sort_list');">sortiere</a> </span>
     <span class="top_bar_element"> <a href="#" onclick="toggle_visibility('filter_list');">filter</a> </span>
