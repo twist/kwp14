@@ -1,9 +1,12 @@
 require 'test_helper'
+require 'authlogic/test_case'
 
 class TopicsControllerTest < ActionController::TestCase
 
   def setup
 
+    activate_authlogic
+    user_login
   end
 
   def test_index
@@ -15,7 +18,8 @@ class TopicsControllerTest < ActionController::TestCase
     topics = Topic.all();
 
     #test if there is at least one topic shown
-    assert_match(topics.first.title, @response.body);
+    @user = User.first
+    assert_match(topics.first.body, @response.body);
 
     #test link to TopicController::show
     assert_match(topic_path(topics.first.id), @response.body); 
@@ -34,7 +38,6 @@ class TopicsControllerTest < ActionController::TestCase
 
     #assert topic is shown
     assert_match(topic.body, @response.body); 
-    assert_match(topic.title, @response.body); 
 
 
 

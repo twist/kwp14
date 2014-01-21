@@ -70,7 +70,6 @@ class UserLifecycleTest < ActionDispatch::IntegrationTest
     get topic_path(@topic.id),{}, {'HTTP_REFERER' => @http_referer}
     assert_response :success
 
-    assert_match("<input checked=\"checked\" id=\"vote_value_3\"", @response.body);
     @new_vote_count = Vote.all.count
     assert_equal(@old_vote_count+1, @new_vote_count)
 
