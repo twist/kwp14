@@ -1,4 +1,7 @@
 Kwp14::Application.routes.draw do
+  resources :roles
+
+
   resources :votes
 
 
