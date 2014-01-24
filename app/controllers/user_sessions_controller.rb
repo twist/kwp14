@@ -15,6 +15,10 @@ class UserSessionsController < ApplicationController
   # POST /user_sessions.json
   def create
     @user_session = UserSession.new(params[:user_session])
+    if(!@user_session.valid?)
+      params[:user_session][:email] = Digest::MD5.hexdigest(params[:user_session][:email])
+      @user_session = UserSession.new(params[:user_session])
+    end
 
     respond_to do |format|
       if @user_session.save
