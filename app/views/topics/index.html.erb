@@ -2,13 +2,15 @@
 
 <table >
   <tr>
+    <th align="left"> Nr </th>
     <th align="left"> Bewertung </th>
     <th align="left"> Schlagworte </th>
     <th align="left"> Aufgaben und Teilziele </th>
   </tr>
 <% @topics.each do |t| %>
   <tr style="border-bottom:1px solid black; padding-bottom:40px; margin-bottom:40px">
-    <td valign="top" class="main_table">
+    <td class="main_table"> <%= t.id %>. </td>
+    <td valign="center" class="main_table">
       <div class="topic_menu" style="float:left; min-height:40px; width=300px; margin-right:40px">
         <div class="topic_rating"> <a name="topic_<%=t.id%>"  </a><%= t.rating %>  </div>
         <!--div class="topic_menu_item"> <%= link_to 'bewerten', topic_path(t.id)  %> </div-->
