@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'authlogic/test_case'
 
 class AdministrationControllerTest < ActionController::TestCase
   # test "the truth" do
@@ -6,8 +7,21 @@ class AdministrationControllerTest < ActionController::TestCase
   # end
   #
   #
+  def setup
+    activate_authlogic
+    user_login
+  end
 
+  def test_index_no_admin
+    
+    get :index
+    assert_response :redirect
+    assert_redirected_to topics_path
+
+
+  end
   def test_index
+    admin_login()
     
     get :index
     users = User.all
@@ -30,6 +44,7 @@ class AdministrationControllerTest < ActionController::TestCase
   end
 
   def test_encryption
+    admin_login()
     get :index
     users = User.all
     users.each do |u|

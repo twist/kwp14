@@ -14,7 +14,20 @@ class ActiveSupport::TestCase
 
   
   def user_login(user = nil)
-    UserSession.create(User.first);
+
+    user.nil? ?   UserSession.create(User.first) : UserSession.create(user)
+  end
+
+  def admin_login
+    users = User.all
+    users.each do |u|
+      if u.has_role? 'admin'
+        user_login(u)
+        return true
+      end
+    end
+    throw "No Admin found in Test Database"
+
   end
 
 

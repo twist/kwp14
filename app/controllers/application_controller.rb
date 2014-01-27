@@ -37,6 +37,14 @@ class ApplicationController < ActionController::Base
       return false
 
     end
+  end
+
+  def require_admin
+    unless current_user.has_role? 'admin'
+      flash[:notice] = "Dieser Bereich steht Ihnen leider nicht zur Verfügung"
+      redirect_to topics_path 
+      return false
+    end
 
   end
 end
