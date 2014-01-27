@@ -1,0 +1,13 @@
+
+<h1> Administration </h1>
+
+<h2 Neue Nutzer </h2>
+<%= link_to 'Email Adressen verschlüsseln' , encrypt_administration_index_path %>
+<table>
+  <%@new_users.each do |u|%>
+    <tr>
+      <td> <%= u.last_name %>, <%=u.first_name%> </td>
+      <td> <%= u.email %> </td>
+    </tr>
+    <%end%>
+  </table>
