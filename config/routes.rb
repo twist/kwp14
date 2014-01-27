@@ -1,13 +1,7 @@
 Kwp14::Application.routes.draw do
   resources :roles
-
-
   resources :votes
-
-
   resources :users
-
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -66,6 +60,12 @@ Kwp14::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   
   resources :topics 
+  resources :administration do
+    collection do
+      get 'index'
+      get 'encrypt'
+    end
+  end
   resources :comments 
   resources :users 
   resources :user_sessions 

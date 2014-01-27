@@ -18,13 +18,17 @@ class UserSessionsControllerTest < ActionController::TestCase
 
     user = random_new_user
     user.save!
+    user_id = user.id
     original_email = user.email
     user.encrypt_email_and_save
     assert_equal(user.email, Digest::MD5.hexdigest(original_email))
 
     post :create, {:user_session => {:email => original_email, :password => user.password}}
-    pp @response.body
     assert_response :redirect
+
+    user_new = User.find(user_id)
+    assert_equal(user_new.email, Digest::MD5.hexdigest(original_email))
+    
   end
   
 end

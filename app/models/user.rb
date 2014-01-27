@@ -5,6 +5,6 @@ class User < ActiveRecord::Base
   def encrypt_email_and_save
     md5_email = Digest::MD5.hexdigest(email)
     update_attribute(:email, md5_email)
-    pp save(:validate => false)
+    save(:validate => false)
   end 
 end
