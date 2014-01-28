@@ -15,7 +15,14 @@ class ActiveSupport::TestCase
   
   def user_login(user = nil)
 
-    user.nil? ?   UserSession.create(User.first) : UserSession.create(user)
+    user_to_login = nil
+    if user.nil? 
+      user_to_login = User.first()
+    else 
+      user_to_login = user
+    end 
+    UserSession.create(user_to_login)
+    return user_to_login
   end
 
   def admin_login
