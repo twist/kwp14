@@ -2,7 +2,7 @@ require 'test_helper'
 
 class RolesControllerTest < ActionController::TestCase
   setup do
-    @role = roles(:one)
+    @role = roles(:Admin)
   end
 
   test "should get index" do
