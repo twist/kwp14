@@ -8,7 +8,11 @@ class CommentsController < ApplicationController
     c.save!
 
     
-    redirect_to request.referer 
+    if request.referer.nil?
+      redirect_to topics_path
+    else
+      redirect_to request.referer 
+    end
 
 
   end
