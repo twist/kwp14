@@ -52,4 +52,20 @@ class TopicsController < ApplicationController
 
   end
 
+
+  def update
+
+    @data = params[:topic]
+    @topic = params[:id]
+
+  end
+
+  def edit
+
+    @id = params[:id]
+    @topic = Topic.find(@id)
+    @comments = @topic.comments
+
+  end
+
 end
