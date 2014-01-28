@@ -1,42 +1,5 @@
 
-<h1> Aufgabe/Teilziel <%= @topic.title %></h1>
+<h1> Aufgabe/Teilziel <%= @topic.title %> bearbeiten </h1>
 <br />
 <br />
-<div id="topic_body">
-  <%= @topic.body %>
-</div>
-<br />
-<br />
-<br />
-<br />
-<% if current_user %>
-  <div id="new_vote">
-    <%= render :partial => 'votes/form' %>
-  </div>
-<br />
-<br />
-<br />
-<br />
-  <div id="new_comment">
-    <%= render :partial => 'comments/form' %>
-  </div>
-<%end%>
-<div id="all_comments">
-  <% even = false %>
-  <% @comments.each do |c| %>
-    <% if even %>
-      <div class="comment" style="background-color:#dddddd" >
-    <%else%>
-      <div class="comment"  >
-    <%end%>
-      <span class="comment_body">
-        <%= simple_format c.body %>
-      </span> - 
-      <span class="comment_author">
-        <%= c.user.first_name %> <%= c.user.last_name%>, <%=c.created_at %>
-      </span>
-    </div>
-  <% even = !even %>
-  <% end %>
-
-</div>
+<%= render :partial => 'form' %>
