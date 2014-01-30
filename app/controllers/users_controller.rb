@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
 
+  before_filter :require_admin, :only => :destroy
 
   # GET /users
   # GET /users.json
@@ -65,12 +66,11 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.json
   def destroy
-    redirect_to topics_path if current_user.id != params[:id]
     @user = User.find(params[:id])
     @user.destroy
 
     respond_to do |format|
-      format.html { redirect_to users_url }
+      format.html { redirect_to :back }
       format.json { head :no_content }
     end
   end

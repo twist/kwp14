@@ -10,4 +10,13 @@
       <td> <%= u.email %> </td>
     </tr>
     <%end%>
-  </table>
+</table>
+<h2 Alte Nutzer </h2>
+<table>
+  <%@users.each do |u|%>
+    <tr>
+      <td> <%= u.last_name %>, <%=u.first_name%> </td>
+      <td> <%= link_to 'Nutzer Entfernen', user_path(u.id), :method => :delete %> </td>
+    </tr>
+    <%end%>
+</table>
