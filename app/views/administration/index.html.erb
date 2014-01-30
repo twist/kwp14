@@ -1,7 +1,7 @@
 
 <h1> Administration </h1>
 
-<h2 Neue Nutzer </h2>
+<h2> Neue Nutzer </h2>
 <%= link_to 'Email Adressen verschlüsseln' , encrypt_administration_index_path %>
 <table>
   <%@new_users.each do |u|%>
@@ -11,7 +11,7 @@
     </tr>
     <%end%>
 </table>
-<h2 Alte Nutzer </h2>
+<h2> Alte Nutzer </h2>
 <table>
   <%@users.each do |u|%>
     <tr>
