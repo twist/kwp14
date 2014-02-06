@@ -13,6 +13,6 @@ class UsersControllerTest < ActionController::TestCase
   def test_delete_user_no_admin
 
     @users = User.all
-   get user_path(@users.last.id), :method => :delete, :action => :destroy
+   get users_path(@users.last.id), :method => :delete
   end
 end

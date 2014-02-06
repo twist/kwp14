@@ -5,6 +5,11 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :roles
 
 
+
+  validates :first_name, :presence => {:message => "Bitte geben Sie einen Vornamen an"}
+  validates :last_name, :presence => {:message => "Bitte geben Sie einen Nachnamen an"}
+
+
   def has_role?(role_name)
     roles.each do |r|
       if r.name == role_name
