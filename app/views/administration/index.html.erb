@@ -20,3 +20,20 @@
     </tr>
     <%end%>
 </table>
+<h2> Anzahl der Bewertungen </h2>
+<table>
+  <tr>
+    <th> Anzahl </th>
+    <th> Durchschnitt </th>
+    <th> Nummer </th>
+    <th> Text </th>
+  </tr>
+  <%@topics.each do |t| %>
+    <tr> 
+      <td> <%= t.votecount %> </td>
+      <td> <%= t.rating %> </td>
+      <td> <%= t.id %> </td>
+      <td> <%= t.body %> </td>
+    </tr>
+    <%end%>
+  </table>
