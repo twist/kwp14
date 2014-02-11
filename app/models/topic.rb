@@ -5,10 +5,18 @@ class Topic < ActiveRecord::Base
   has_many :comments
   has_many :votes
 
-  def rating
 
+  def rating
+    @rating.nil? ? recalculate_rating : @rating
+  end
+    
+
+
+
+
+  def recalculate_rating
     if votes.size == 0
-      return 0
+      return rating = 0
     end
 
     sum_of_votes = 0
@@ -17,8 +25,7 @@ class Topic < ActiveRecord::Base
       sum_of_votes += v.value
     end
     topic_rating = sum_of_votes / votes.size
-    topic_rating.round(2)
-
+    @rating = topic_rating.round(2)
   end
 
   def date_of_last_comment
