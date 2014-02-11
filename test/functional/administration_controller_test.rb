@@ -40,6 +40,11 @@ class AdministrationControllerTest < ActionController::TestCase
       end
     end
 
+    topic = Topic.all.first;
+    pp topic
+    assert_match(topic.body, @response.body);
+    assert_match(topic.votecount, @response.body);
+
 
   end
 

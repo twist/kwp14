@@ -9,7 +9,7 @@ class AdministrationController < ApplicationController
       @new_users << u if u.email =~ /@/
     end
     @topics = Topic.all()
-    @topics.sort! {|a,b| a.votecount <=> b.votecount}
+    @topics.sort! {|a,b| b.votecount <=> a.votecount}
 
   end
 
