@@ -15,7 +15,7 @@ class VotesController < ApplicationController
     respond_to do |format|
       if @vote.save
         @vote.topic.recalculate_rating
-        @vote.topic.save
+        @vote.topic.save!
         format.html { redirect_to topics_path(:anchor => "topic_#{@vote.topic_id}"), notice: "Sie haben mit \"#{@vote.value}\" abgestimmt" }
         format.json { render json: @vote, status: :created, location: @vote }
       else
@@ -33,7 +33,7 @@ class VotesController < ApplicationController
     respond_to do |format|
       if @vote.update_attributes(params[:vote])
         @vote.topic.recalculate_rating
-        @vote.topic.save
+        @vote.topic.save!
         format.html { redirect_to topics_path(:anchor => "topic_#{@vote.topic_id}"), notice: "Sie haben mit \"#{@vote.value}\" abgestimmt" }
         format.json { head :no_content }
       else
