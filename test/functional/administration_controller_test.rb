@@ -34,11 +34,16 @@ class AdministrationControllerTest < ActionController::TestCase
     users = User.all
     users.each do |u|
       if(u.email =~ /@/)
-        assert_match(u.first_name, @response.body)
+        assert_match(u.email, @response.body)
       else
-        assert_no_match(/#{u.first_name}/, @response.body)
+        assert_no_match(/#{u.email}/, @response.body)
       end
     end
+
+    topic = Topic.all.first;
+    pp topic
+    assert_match(topic.body, @response.body);
+    assert_match(topic.votecount, @response.body);
 
 
   end
@@ -57,9 +62,11 @@ class AdministrationControllerTest < ActionController::TestCase
     get :index
     users = User.all
     users.each do |u|
-        assert_no_match(/#{u.first_name}/, @response.body)
+        assert_no_match(/#{u.email}/, @response.body)
     end
 
 
   end
+
+
 end

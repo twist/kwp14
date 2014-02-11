@@ -42,7 +42,9 @@ class ActiveSupport::TestCase
     email = Digest::MD5.hexdigest(Time.now.ctime)+"@automatictest.de"
     password = Digest::MD5.hexdigest(Time.now.ctime)
     password_confirmation = password
-    user = User.new(:email => email, :password => password, :password_confirmation => password_confirmation)
+    first_name = "First_name"+Time.now.ctime
+    last_name = "Second"+Time.now.ctime
+    user = User.new(:first_name => first_name, :last_name => last_name,:email => email, :password => password, :password_confirmation => password_confirmation)
     return user
 
 

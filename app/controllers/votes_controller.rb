@@ -43,7 +43,7 @@ class VotesController < ApplicationController
   # DELETE /votes/1.json
   def destroy
     @vote = Vote.find(params[:id])
-    @vote.destroy
+    #@vote.destroy
 
     respond_to do |format|
       format.html { redirect_to votes_url }

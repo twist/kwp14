@@ -1,24 +1,28 @@
 class RolesController < ApplicationController
+
+  before_filter :require_admin
   # GET /roles
   # GET /roles.json
   def index
-    @roles = Role.all
+    redirect_to topics_path
+  #  @roles = Role.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @roles }
-    end
+  #  respond_to do |format|
+  #    format.html # index.html.erb
+  #    format.json { render json: @roles }
+  #  end
   end
 
   # GET /roles/1
   # GET /roles/1.json
   def show
-    @role = Role.find(params[:id])
+    redirect_to topics_path()
+  #  @role = Role.find(params[:id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @role }
-    end
+  #  respond_to do |format|
+  #    format.html # show.html.erb
+  #    format.json { render json: @role }
+  #  end
   end
 
   # GET /roles/new
@@ -56,6 +60,7 @@ class RolesController < ApplicationController
   # PUT /roles/1
   # PUT /roles/1.json
   def update
+    redirect_to topics_path()
     @role = Role.find(params[:id])
 
     respond_to do |format|
@@ -72,6 +77,7 @@ class RolesController < ApplicationController
   # DELETE /roles/1
   # DELETE /roles/1.json
   def destroy
+    redirect_to topics_path()
     @role = Role.find(params[:id])
     @role.destroy
 

@@ -35,6 +35,10 @@ class Topic < ActiveRecord::Base
 
   end
 
+  def votecount
+    return votes.size
+  end
+
 
 
 
