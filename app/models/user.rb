@@ -3,6 +3,8 @@ class User < ActiveRecord::Base
   acts_as_authentic do |c| c.login_field = :email end
 
   has_and_belongs_to_many :roles
+  has_many :votes, :dependent => :destroy
+  has_many :comments, :dependent => :destroy
 
 
 
