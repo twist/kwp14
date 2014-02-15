@@ -1,22 +1,19 @@
 class CommentsController < ApplicationController
   before_filter :require_user
 
+
   def create
-    @data = params[:comment]
-
-    c = Comment.new(@data);
-    c.save!
-
-    
-    if request.referer.nil?
-      redirect_to topics_path
-    else
-      redirect_to request.referer 
+    @comment = Comment.new(params[:comment])
+    respond_to do |format|
+      if @comment.save
+        format.html { redirect_to topic_path(:id => @comment.topic.id), notice: "Sie haben kommentiert" }
+        format.json { render json: @vote, status: :created, location: @vote }
+      else
+        format.html { redirect_to :back, notice: "Sie koennen keine leeren Kommentare abgeben" }
+        format.json { render json: @vote.errors, status: :unprocessable_entity }
+      end
     end
-
-
   end
-
   def index
 
     @comments = Comment.all().reverse;
