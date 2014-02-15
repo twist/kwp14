@@ -22,6 +22,19 @@ div#top_bar {
 
     background-color:#ff5555;
 
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:30px;
+  padding-right:30px;
+  border-left-width:1px;
+  border-left-style:dotted;
+  border-left-color:red;
+
+  border-right-width:1px;
+  border-right-style:dotted;
+  border-right-color:red;
+
 }
 
 div#content {
@@ -42,6 +55,7 @@ div#content {
   border-right-style:dotted;
   border-right-color:red;
 
+  background-color:#ffeeee;
 
 
 
