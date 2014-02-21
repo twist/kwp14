@@ -10,7 +10,6 @@ class AdministrationController < ApplicationController
     end
     @topics = Topic.all()
     @topics.sort! {|a,b| b.votecount <=> a.votecount}
-
   end
 
 
@@ -25,10 +24,6 @@ class AdministrationController < ApplicationController
     end
 
     redirect_to topics_path
-
-
-
-
   end
 
 end
