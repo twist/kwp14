@@ -14,6 +14,8 @@ class TopicsController < ApplicationController
           @topics_filtered.push t
         end
       end
+      @topic_content = true
+      @filter = session[:filter_param]
       @topics = @topics_filtered
     end
 

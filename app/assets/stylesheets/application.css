@@ -20,7 +20,7 @@ div#top_bar {
     border-bottom-style:solid;
     padding:4px;
 
-    background-color:#ff5555;
+    background-color:#e30613;
 
   width:80%;
   margin-left:auto;
@@ -29,15 +29,16 @@ div#top_bar {
   padding-right:30px;
   border-left-width:1px;
   border-left-style:dotted;
-  border-left-color:red;
+  border-left-color:black;
+  min-height: 50px;
 
   border-right-width:1px;
   border-right-style:dotted;
-  border-right-color:red;
+  border-right-color:black;
 
 }
 
-div#content {
+div.content {
   width:80%;
   margin-left:auto;
   margin-right:auto;
@@ -56,6 +57,7 @@ div#content {
   border-right-color:red;
 
   background-color:#ffeeee;
+  font: Verdana, sans-serif;
 
 
 
@@ -70,6 +72,13 @@ div#topic_body {
 
     font-size: 20pt;
     line-height:20pt;
+
+}
+
+span.title {
+    //font-size: 20pt;
+    //margin-right:300px;
+
 
 }
 span.top_bar_element {

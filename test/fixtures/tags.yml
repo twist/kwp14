@@ -1,49 +1,50 @@
-Arbeit:
-  title: Arbeit
-Armut:
-  title: Armut
-Barrierefreiheit:
-  title: Barrierefreiheit
-Beteiligung:
-  title: Beteiligung
-Bildung:
-  title: Bildung
-Familie:
-  title: Familie
-Geschichte:
-  title: Geschichte
-Gesundheit:
-  title: Gesundheit
-Internationalität:
-  title: Internationalität
-Jugend:
-  title: Jugend
-Kinder:
-  title: Kinder
-Kultur :
-  title: Kultur 
-Lebensweisen:
-  title: Lebensweisen
-Mobilität:
+---
+tag_0:
+  title: Antifaschismus
+tag_1:
+  title: Arbeit, inklusiv und würdevoll
+tag_2:
+  title: Beteiligung und Information
+tag_3:
+  title: neu
+tag_4:
+  title: Bildung, gut und barrierefrei
+tag_5:
+  title: Gesundheit (und Umwelt)
+tag_6:
+  title: Gleichstellung
+tag_7:
+  title: Infrastruktur // Digitalisierung (?)
+tag_8:
+  title: 
+tag_9:
+  title: Dresden baut hier Gehwege oder Bürgersteige um bzw. prüft diese Möglichkeit
+    zumindest."
+tag_10:
+  title: Kultur
+tag_11:
   title: Mobilität
-Senioren:
-  title: Senioren
-SeniorInnen:
-  title: SeniorInnen
-Sicherheit:
-  title: Sicherheit
-Soziales:
+tag_12:
+  title: Ostmoderne
+tag_13:
+  title: Öffentlicher Raum
+tag_14:
+  title: Ökologie
+tag_15:
   title: Soziales
-Sport:
-  title: Sport
-Stadtentwicklung:
-  title: Stadtentwicklung
-Umwelt:
-  title: Umwelt
-Wirtschaft:
+tag_16:
+  title: Sport und Freizeit
+tag_17:
+  title: " Stadtentwicklung"
+tag_18:
+  title: Tourismus
+tag_19:
   title: Wirtschaft
-Wissenschaft:
-  title: Wissenschaft
-Wohnen:
-  title: Wohnen
-
+tag_20:
+  title: Seniorenpolitik (W.Peine)
+tag_21:
+  title: Frieden und Sicherheit (Ruslan) // kommunale Friedenspolitik
+tag_22:
+  title: inhaltlich ungenau
+tag_23:
+  title: konkret, aber inhaltlich umstritten

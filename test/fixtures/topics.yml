@@ -1,737 +1,1856 @@
-thema_one:
+---
+topic_0:
+  body: Dresden erinnert jährlich am 8. Mai mit einer Kranzniederlegung am Denkmal
+    der Roten Armee an die Befreiung vom Faschismus.
+  tags:
+  - tag_0
+  id: 0
+topic_1:
+  body: Dresden beseitigt die Verschmutzungen von Denkmalen und Gedenk-Orten.
+  tags:
+  - tag_0
   id: 1
-  body: "Es wird ein gesamtstädtisches Wohnungskonzept entwickelt."
-  tags: ["Wohnen" , "Stadtentwicklung" , "Soziales"]
-thema_two:
-  id: 2 
-  body: "Dresden gründet eine städtische Wohnungsbaugesellschaft." 
-  tags: ["Wohnen" , "Stadtentwicklung" , "Wirtschaft" ]
-thema_3:
+topic_2:
+  body: Dresden gestaltet den Obelisken in Altnickern und den Gedenkort  im Heidefriedhof
+    so um, dass gleichzeitig eine mahnende wie erinnernde Funktion erfüllt wird.
+  tags:
+  - tag_0
+  id: 2
+topic_3:
+  body: Dresden benennt eine geeignete Straße oder einen geeigneten Platz nach Kurt
+    Schlosser.
+  tags:
+  - tag_0
   id: 3
-  body: "Der Entmischung und Neubildung von sozialen Brennpunkten ist durch ein quartiersbezogenes Handlungsprogramm vorzubeugen und entgegenzuwirken."
-  tags: ["Armut" , "Stadtentwicklung" , "Soziales" , "Familie", "Wohnen"]
-thema_4:
+topic_4:
+  body: Dresden erstellt eine offene Analyse zur Situation von rechtsextremen und
+    faschistischen Strukturen.
+  tags:
+  - tag_0
   id: 4
-  body: "Wohnungseinheiten des sozialen Wohnungsbaus werden verteilt im gesamten Stadtgebiet eingerichtet."
-  tags: ["Armut" , "Stadtentwicklung" , "Wohnen" ]
-thema_5:
+topic_5:
+  body: Dresden stößt eine kritische Auseinandersetzung zur Verbreitung menschenverachtender
+    Ideologien in der Mitte der Gesellschaft an.
+  tags:
+  - tag_0
   id: 5
-  body: "Die Bemessungsgröße für die Kosten der Unterkunft wird anhand der tatsächlichen Preisentwicklung des Wohnungsmarktes regelmäßig angepasst."
-  tags: ["Armut" , "Wohnen" , "Soziales"]
-thema_6:
+topic_6:
+  body: Dresden geht aktiv und offensiv gegen Ideologien der Ungleichwertigkeit vor.
+  tags:
+  - tag_0
   id: 6
-  body: "Von der Stadt zu beeinflussende Nebenkosten des Wohnens wie Grundsteuer, Wasser, Abwasser, Straßenreinigung und Müllabfuhr sind stabil zu halten."
-  tags: ["Wohnen" , "Soziales"]
-thema_7:
+topic_7:
+  body: Dresden veranstaltet keine Gedenkveranstaltungen zum 13. Februar mehr.
+  tags:
+  - tag_0
   id: 7
-  body: "Die Stadt Dresden nutzt alle Möglichkeiten, um Mietpreiserhöhungen bei Erst- und Neuvermietungen sowie bei laufenden Mietverhältnissen zu bremsen."
-  tags: ["Wohnen" , "Soziales"]
-thema_8:
+topic_8:
+  body: Dresden anerkennt das Aktionsbündnis Dresden nazifrei als erfolgreichen antifaschistischen
+    Akteur.
+  tags:
+  - tag_0
   id: 8
-  body: "Die Stadt Dresden nutzt alle Möglichkeiten des sozialen Wohnungsbaus aus und setzt sich für deren Erweiterung ein."
-  tags: ["Wohnen" , "Soziales" , "Wirtschaft"]
-thema_9:
+topic_9:
+  body: Dresden mach Projekte gegen Rassismus und Menschenfeindlichkeit in der Öffentlichkeit
+    bekannt.
+  tags:
+  - tag_0
   id: 9
-  body: "Die Stadt vergibt Bauland nach Maßgabe des besten Konzepts und nicht meistbietend und begünstigt so insbesondere Wohnprojekte."
-  tags: ["Stadtentwicklung" , "Wohnen" , "Umwelt"]
-thema_10:
+topic_10:
+  body: "*Prof. Ehninger wird zum Ehrenbürger der Stadt Dresden ernannt."
+  tags:
+  - tag_0
   id: 10
-  body: "Dresden unterstützt alternative Wohnformen und Wohnprojekte in vielfältiger Art und Weise."
-  tags: ["Stadtentwicklung" , "Wirtschaft" , "Wohnen"]
-thema_11:
+topic_11:
+  body: Dresden erarbeitet gemeinsam mit allen zivilgesellschaftlichen Akteuren neue
+    Formen des Gedenkens an die Bombardierung der Stadt am 13. und 14. Februar 1945.
+    Es ist darauf hinzuweisen, dass der 2.Weltkrieg und der Bombenkrieg gegen Polen
+    (bereits am 1.September 1939), England (London und Coventry), die Niederlande
+    (Rotterdam) und andere Städte in Europa von Deutschland begonnen wurden.
+  tags:
+  - tag_0
   id: 11
-  body: "Die Stadt setzt sich für den Abschluss von Vereinbarungen zur Wohnquartiergestaltung und  deren strikte Umsetzung durch die beteiligten Wohnungsunternehmen bzw. Marktakteure ein (Eigentümerstandortgemeinschaften)."
-  tags: ["Stadtentwicklung" , "Wirtschaft" , "Wohnen"]
-thema_12:
+topic_12:
+  body: Dresden schafft mehr Anreize, dass Arbeitgeber im kommunalen Bereich Menschen
+    mit Behinderungen einstellen.
+  tags:
+  - tag_1
   id: 12
-  body: "Es wird ein Parkraumkonzept für Trachau erstellt, dabei soll auf eine Luxussanierung der Industriestraße und den unnötigen Kreisverkehr Ecke Volkersdorfer Straße verzichtet werden."
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_13:
+topic_13:
+  body: Dresden gewährt Leistungssachbearbeiter*innen in Sozialamt und Jobcenter eine
+    jährliche Fortbildung in interkultureller Kompetenz
+  tags:
+  - tag_1
   id: 13
-  body: "Dresden genehmigt keine weiteren Groß-Einkaufszentren, sondern fördert stattdessen den kleinteiligen Einzelhandel."
-  tags: ["Stadtentwicklung" , "Wirtschaft" , "Mobilität"]
-thema_14:
+topic_14:
+  body: Dresden ermöglicht Leistungssachbearbeiter*innen in Sozialamt und Jobcenter
+    jährlich zwei Praktikumstage in sozialen Beratungseinrichtungen, die von Ihrem
+    betreuten Klientel frequentiert werden (Tafeln, Beratungsstellen, aufsuchende
+    Sozialarbeit ...)
+  tags:
+  - tag_1
   id: 14
-  body: "Dresden unterstützt den Erhalt sozialer, kultureller und kreativer Initiativen (Geh8, Freiraum Elbtal e.V. u.a.)."
-  tags: ["Kultur" , "Stadtentwicklung" , "Soziales" , "Beteiligung"  ]
-thema_15:
+topic_15:
+  body: Dresden legt ein Intensivförderungsprogramm auf, um interessierten Personen
+    mit Migrationshintergrund eine Stelle in städtischen Behörden zu ermöglichen.
+  tags:
+  - tag_1
   id: 15
-  body: "Luxuswohnprojekte wie die Hafencity, welche gewachsene Strukturen zerstören, werden nicht genehmigt."
-  tags: ["Stadtentwicklung" , "Umwelt" ]
-thema_16:
+topic_16:
+  body: Dresden bietet den Beschäftigten in der Stadtverwaltung familienfreundliche
+    Arbeitszeiten und mobiles Arbeiten.
+  tags:
+  - tag_1
   id: 16
-  body: "In öffentlichen Parks werden Hundewiesen eingerichtet und regelmäßig gepflegt. Die Aufstellung von Hundekotbeutelspendern und Abfallbehältern ist auszuweiten. Die regelmäßige Kontrolle und Wartung der bereits aufgestellten Spender und Abfallbehälter wird verstärkt."
-  tags: ["Soziales" , "Umwelt" , "Sicherheit" ]
-thema_17:
+topic_17:
+  body: Dresden sorgt dafür, dass es eine Beratungsstelle für Mobbing und/oder arbeitsrechtliche
+    Fragen gibt.
+  tags:
+  - tag_1
   id: 17
-  body: "Dresden schafft mehr wohnortnahe Erholungsmöglichkeiten durch Erhalt und Neuanlage von Freiflächen sowie generationenübergreifende Spielplätze und Grünanlagen."
-  tags: ["Soziales" , "Familie" , "Senioren" , "Kinder" , "Umwelt" , "Stadtentwicklung" , "Wohnen" ]
-thema_18:
+topic_18:
+  body: "*Die Stadt Dresden richtet in Zusammenarbeit mit den Gewerkschaften und anderen
+    Beteiligten eine kostenlose Beratungsstelle für Erwerbstätige ein, die gemobbt
+    werden oder beispielsweise sich gegen einen unfähigen Chef / unfähige Chefin rechtlich
+    wehren wollen bzw. Unterstützung brauchen. Alle Beschwerden bzw. Beratungen werden
+    dokumentiert und dauerhaft archiviert!"
+  tags:
+  - tag_1
   id: 18
-  body: "Die Stadt beteiligt sich in Zusammenarbeit mit dem Studentenwerk aktiv an der Schaffung preiswerten Wohnraums für Studierende."
-  tags: ["Jugend" , "Wirtschaft" , "Wissenschaft" , "Wohnen"]
-thema_19:
+topic_19:
+  body: "*Die Stadt Dresden unterstützt dauerhaft alle ABC-Tische mit einer festen
+    Fördersumme. Die Tische werden auch auf nicht des Schreibens und Lesens kundige
+    Nichtasylbewerber ausgedehnt / ihnen angeboten."
+  tags:
+  - tag_1
   id: 19
-  body: "Dresden erhöht die Förderung für die freie Jugendhilfe so, dass mindestens  zehn  neue Jugendeinrichtungen geschaffen und gut ausgestattet werden können."
-  tags: ["Jugend" , "Soziales" , "Bildung"]
-thema_20:
+topic_20:
+  body: "*Alle nicht mehr benötigten ehemaligen Asylbewerberunterkünfte werden überprüft,
+    ob dort Sozialwohnungen bzw. Wohnungen für Wohnungslose eingerichtet werden können."
+  tags:
+  - tag_1
   id: 20
-  body: "Dresden misst der Straßensozialarbeit einen höheren Rang bei und richtet ein Netz von mindestens drei Teams je Ortsamtsbereich ein."
-  tags: ["Jugend" , "Soziales"]
-thema_21:
+topic_21:
+  body: "*Dresden rekommunalisiert die verkauften, ehemals städtischen Wohnungen vollständig.
+    Zumindest prüft die Stadt ihre hier vorhandenen rechtlichen Möglichkeiten und
+    setzt sie durch! Ebenso überprüft die Stadt die Einhaltung der beim Verkauf der
+    ehemals städtischen Wohnungen an private Investoren gegebenen Zusicherungen bzw.
+    erteilten Auflagen und setzt sich im Sinne der Mieter und Mieterinnen vehement
+    für deren Einhaltung ein!"
+  tags:
+  - tag_1
   id: 21
-  body: "Dresden stellt für die Umsetzung des Spielplatzentwicklungskonzeptes zum Zweck des Erhalts und Neubaus von Spielplätzen ausreichende Mittel zur Verfügung." 
-  tags: ["Kinder" , "Familie" , "Stadtentwicklung" , "Wohnen"]
-thema_22:
+topic_22:
+  body: "*Dresden führt das bedingungslose Grundeinkommen für zunächst 10.000 (?)
+    wirklich Bedürftige nach dem Losverfahren (?) ein (zum Beispiel für Schuldner,
+    Wohnungslose oder Hartz-IV-Bezieher)! Das Ganze wird wissenschaftlich begleitet
+    bzw. dokumentiert!"
+  tags:
+  - tag_1
   id: 22
-  body: "Das Handlungsprogramm „Aufwachsen in sozialer Verantwortung“ für Kindertageseinrichtungen soll langfristig fortgeführt und auf weitere Einrichtungen ausgedehnt werden."
-  tags: ["Kinder" , "Familie" , "Soziales" , "Bildung" , "Gesundheit"]
-thema_23:
+topic_23:
+  body: "*Dresden schafft Hartz-IV ab!"
+  tags:
+  - tag_1
   id: 23
-  body: "Dresden setzt sich für eine verbesserte Personalausstattung in Krippen, Kindergärten und Horten ein, die auch vom pädagogischen Bedarf der Kinder abhängt." 
-  tags: ["Kinder" , "Familie" , "Soziales" , "Bildung"]
-thema_24:
+topic_24:
+  body: "*In Dresden gibt es bis (?) keine Wohnungslosen mehr! (Beispiel Paris?)"
+  tags:
+  - tag_1
   id: 24
-  body: "Dresden integriert die Kosten für das Mittagessen in Kindertageseinrichtungen in den allgemeinen Elternbeitrag."
-  tags: ["Kinder" , "Familie" , "Soziales" , "Gesundheit" ]
-thema_25:
+topic_25:
+  body: "*Dresden richtet nächtliche Aufenthaltsräume für Wohnungslose ein, welche
+    sich nicht in den sonstigen Räumlichkeiten aufhalten möchten. Die Stadt lässt
+    nicht das Schließen von Vorräumen beispielsweise von Geldautomaten zu, nur weil
+    sich dort Obdachlose die Nacht über aufgehalten haben!"
+  tags:
+  - tag_1
   id: 25
-  body: "Die Stadt macht die Möglichkeiten der ergänzenden Tagespflege für Kinder besser bekannt und sorgt für stabile Rahmenbedingungen." 
-  tags: ["Kinder" , "Familie" , "Arbeit" , "Soziales"]
-thema_26:
+topic_26:
+  body: "*Dresden unterstützt bzw. initiiert und fördert Projekte, die bei der deutschlandweiten
+    Umsetzung des bedingungslosen Grundeinkommens helfen."
+  tags:
+  - tag_1
   id: 26
-  body: "Dresden erweitert das Angebot an Schulsozialarbeit, insbesondere an Förderschulen und Oberschulen."
-  tags: [ "Bildung" , "Soziales", "Kinder" , "Jugend"]
-thema_27:
+topic_27:
+  body: Dresden sorgt dafür, daß die Landeshauptstadt Dresden keine Aufträge mehr
+    an den Luby-Service vergibt. Luby-Service ist die Behindertenwerkstatt der Cultus
+    GmbH, die wiederum der Landeshauptstadt Dresden gehört.
+  tags:
+  - tag_1
   id: 27
-  body: "Dresden fördert Ferienfahrten bei gemeinnützigen Vereinen für Kinder und Jugendliche auch unabhängig vom Einkommen der Eltern." 
-  tags: ["Soziales" , "Kinder" , "Jugend" , "Familie" , "Bildung"]
-thema_28:
+topic_28:
+  body: Dresden sorgt dafür, daß im kommunalen Bereich mehr Menschen mit Behinderungen
+    eingestellt werden.
+  tags:
+  - tag_1
   id: 28
-  body: "Dresden schafft eine unabhängige Beratungsstelle für Kindertagesbetreuung, in der Eltern ihre Fragen und Probleme vorbringen können."
-  tags: ["Familie" , "Soziales" , "Bildung" , "Mobilität"]
-thema_29:
+topic_29:
+  body: Dresden gibt sich eine Beteiligungssatzung.
+  tags:
+  - tag_2
   id: 29
-  body: "Dresden sorgt dafür, dass der Elternwunsch nach Betreuung in einer Kita oder in Tagespflege wohnortnah umgesetzt werden kann." 
-  tags: ["Familie" , "Wohnen" , "Kinder" , "Bildung" , "Mobilität"]
-thema_30:
+topic_30:
+  body: Dresden schafft eine Internetplattform zur politischen Beteiligung in allen
+    Angelegenheiten der Kommune.
+  tags:
+  - tag_2
   id: 30
-  body: "Dresden sorgt dafür, dass der Weg zwischen Schule und Hort von den Kindern auch in Begleitung einer Aufsichtsperson zurückgelegt werden kann."
-  tags: ["Kinder" , "Familie" , "Mobilität" , "Sicherheit" , "Bildung"]
-thema_31:
+topic_31:
+  body: Dresden führt einen Bürgerhaushalt ein.
+  tags:
+  - tag_2
   id: 31
-  body: "Dresden verzichtet auch in Zukunft bei Kindern nicht erwerbstätiger Eltern auf jede Form der zeitlichen Einschränkung beim Besuch von Krippe, Kindergarten und Hort." 
-  tags: ["Kinder" , "Familie" , "Soziales" , "Armut" , "Bildung"]
-thema_32:
+topic_32:
+  body: Dresden setzt sich für eine Stärkung der Gemeingüter der Gesellschaft ein,
+    wie Wissen, Internet, Mobilität, Energie und Einkommen.
+  tags:
+  - tag_2
   id: 32
-  body: "Die Stadt Dresden knüpft den Beschluss von Bebauungsplänen für Wohnungsneubauten mit mehr als zehn Wohnungen an eine 10 % Sozialbelegungsquote."
-  tags: ["Wohnen" , "Soziales" , "Stadtentwicklung" ]
-thema_33:
+topic_33:
+  body: Dresden veröffentlicht die wichtigsten Broschüren und Formulare in verschiedenen
+    Fremdsprachen und in leichter Sprache.
+  tags:
+  - tag_2
   id: 33
-  body: "Dresden mietet aktiv mehr Wohnungen für die dezentrale Unterbringung von Asylsuchenden an." 
-  tags: ["Internationalität" , "Soziales" , "Wohnen"]
-thema_34:
+topic_34:
+  body: Dresden verstärkt seine Bemühungen, das Demokratieverständnis von Kindern
+    und Jugendlichen zu stärken und bieten ihnen die Möglichkeit zur partizipativen
+    Wahlbeteiligung noch vor dem Erreichen der Volljährigkeit.
+  tags:
+  - tag_4
   id: 34
-  body: "Dresden richtet eine unabhängige Ombudsstelle ein, an die sich Pflegebedürftige, BewohnerInnen von Alten- und Pflegeheimen und ihre Angehörigen mit ihren Fragen und Problemen wenden können."
-  tags: ["Beteiligung" , "Soziales" , "SeniorInnen" , "Familie"]
-thema_35:
+topic_35:
+  body: Dresden fördert Schulprojekte zur politischen Bildung und zum ehrenamtlichen
+    Engagement.
+  tags:
+  - tag_4
   id: 35
-  body: "Dresden schließt sich dem Projekt „Demenzfreundliche Kommunen“ unter Beachtung der Großstadtbedingungen an." 
-  tags: ["Soziales" , "SeniorInnen" , "Gesundheit"]
-thema_36:
+topic_36:
+  body: '"Dresden schafft an allen Schulen die Möglichkeit für den Unterricht ""Deutsch
+    als Zweitsprache"" um die Konzentration von SchülerInnen mit Migrationshintergrund
+    auf wenige Schulen zu verhindern."'
+  tags:
+  - tag_4
   id: 36
-  body: "Für die Arbeit mit wohnungslosen Menschen werden zehn SozialarbeiterInnen eingestellt."
-  tags: ["Soziales" , "Armut" , "Gesundheit"]
-thema_37:
+topic_37:
+  body: Dresden setzt sich längerfristig für eine kostenlose Schülerbeförderung ein.
+  tags:
+  - tag_4
   id: 37
-  body: "Die Stadt Dresden richtet einen Wohnungslosenbeirat ein " 
-  tags: ["Beteiligung" , "Soziales" , "Armut" , "Gesundheit"]
-thema_38:
+topic_38:
+  body: Dresden unterstützt eine aktive Eltern- und SchülerInnenmitwirkung durch Schaffung
+    einer Planstelle um Kreis- und Stadtelternrat sowie Stadtschülerrat um diese Gremien
+    im Bereich der organisatorischen Aufgaben zu entlasten.
+  tags:
+  - tag_4
   id: 38
-  body: "Das Gesundheitsamt wird beauftragt, die gesicherte gesundheitliche Betreuung wohnungsloser Menschen in der Stadt unbürokratisch zu organisieren."
-  tags: ["Soziales" , "Gesundheit" , "Armut" , "Barrierefreiheit"]
-thema_39:
+topic_39:
+  body: Dresden baut das Angebot an Schulsozialarbeit an allen Schultypen weiter aus.
+  tags:
+  - tag_4
   id: 39
-  body: "Dresden fördert Besuchsdienste für ältere Menschen." 
-  tags: ["Soziales" , "SeniorInnen"]
-thema_40:
+topic_40:
+  body: Dresden setzt sich weiterhin für den Erhalt der Straßenschule ein.
+  tags:
+  - tag_4
   id: 40
-  body: "Dresden nutzt die Möglichkeiten des Sozialgesetzbuches aus, um die Praxis der Abschaltung von Strom- und Gaslieferung bei Schulden zu vermeiden." 
-  tags: ["Soziales"]
-thema_41:
+topic_41:
+  body: Dresden sorgt für einen zügigen und reibungslosen Start des Schulversuches
+    „Universitätsschule“.
+  tags:
+  - tag_4
   id: 41
-  body: "Der Dresden-Pass wird zur diskriminierungsfreien Dresden-CARD weiterentwickelt." 
-  tags: ["Soziales" , "Armut" , "Familie" , "Kinder" , "Jugend"]
-thema_42:
+topic_42:
+  body: Dresden unterstützt die Elternmitwirkung im Bereich der Kindertagesstätten.
+  tags:
+  - tag_4
   id: 42
-  body: "Dresden unterstützt unabhängige Beratungsstellen für Erwerbslose organisatorisch und finanziell." 
-  tags: ["Soziales" , "Beteiligung" , "Arbeit" , "Armut"]
-thema_43:
+topic_43:
+  body: Dresden fördert gezielt Angebote und Projekte, die Demokratie und Toleranz
+    vermitteln.
+  tags:
+  - tag_4
   id: 43
-  body: "Beim Jobcenter gibt es eine Ombudsstelle für Anregungen und Beschwerden von Betroffenen und anderen interessierten Einzelpersonen, Verbänden, Institutionen und Initiativen." 
-  tags: ["Arbeit" , "Soziales"]
-thema_44:
+topic_44:
+  body: Dresden bietet friedenspolitischen Initiativen und Organisationen die Möglichkeit,
+    ihre Ziele auf kommunalen Veranstaltungen wie dem Stadtfest bekannt zu machen.
+    Sie sind ein Gegenpol zu den Werbeauftritten der Bundeswehr.
+  tags:
+  - tag_4
   id: 44
-  body: "Dresden ermöglicht Erwerbslosen eine Interessenvertretung und richtet dazu einen Beirat ein." 
-  tags: ["Beteiligung" , "Arbeit" , "Soziales"]
-thema_45:
+topic_45:
+  body: Dresden fördert die ABC-Tische und sorgt dafür, dass diese für alle Analphabeten
+    zur Verfügung stehen.
+  tags:
+  - tag_4
   id: 45
-  body: "Dresden verhindert im Rahmen seiner Möglichkeiten Zwangsumzüge." 
-  tags: ["Soziales" , "Wohnen" , "Armut"]
-thema_46:
+topic_46:
+  body: Dresden stellt Lerncontainer ausschließlich als befristete Alternative zu
+    Schulgebäuden auf.
+  tags:
+  - tag_4
   id: 46
-  body: "Dresden gewährleistet in den Ämtern ausreichende Dolmetscherkapazitäten für die vier größten Weltsprachen sowie die Sprachen der drei häufigsten Zuwanderungsländer Dresdens. Mitarbeiter_Innen der Ausländerbehörde sollen mindestens ein Fremdsprache beherrschen." 
-  tags: ["Internationalität" , "Soziales" , "Beteiligung" , "Barrierefreiheit"]
-thema_47:
+topic_47:
+  body: Dresden bildet kleinere Grundschulbezirke.
+  tags:
+  - tag_4
   id: 47
-  body: "Das Willkommenszentrum am Postplatz wird so ausgerichtet, dass künftig alle MigrantInnen, die sich in Dresden anmelden, gleich behandelt werden." 
-  tags: ["Internationalität " , "Soziales"]
-thema_48:
+topic_48:
+  body: Dresden beendet langfristig die bildungspolitische Ausgrenzung von Menschen
+    mit Behinderung an den Sonderschulformen.
+  tags:
+  - tag_4
   id: 48
-  body: "Die Stadt Dresden fördert die Qualifizierung und Integration von wenig oder nicht ausgebildeten ausländischen Menschen mit einem eigenen Programm." 
-  tags: ["Arbeit" , "Soziales" , "Internationalität" , "Barrierefreiheit"]
-thema_49:
+topic_49:
+  body: Dresden muss zukünftig bei Neubauten von oder Anbauten an Schulen mindestens
+    drei kleine Räume zur Umsetzung von förderpädagogischen Maßnahmen mit einplanen.
+  tags:
+  - tag_4
   id: 49
-  body: "Der Aufgabenbereich der Gleichstellungsbeauftragten wird um den Themenbereich der LGBTI-Lebensweisen erweitert. Die nötigen Ressourcen werden bereitgestellt." 
-  tags: ["Lebensweisen"]
-thema_50:
+topic_50:
+  body: Dresden sichert an allen Schulen eine ausreichende Besetzung der Schulsekretariate
+    und bildet einen VertreterInnenpool.
+  tags:
+  - tag_4
   id: 50
-  body: "Dresden leistet einen aktiven Beitrag, um gruppenbezogener Menschenfeindlichkeit und Ausgrenzung keinen Raum mehr zu geben. Darüber hinaus unterstützt die Stadt im Rahmen ihrer Möglichkeiten aktiv Initiativen, Bündnisse und Vereine, die sich in diesem Themenfeld engagieren." 
-  tags: ["Bildung"]
-thema_51:
+topic_51:
+  body: Dresden stellt ausreichend Systembetreuer*innen für die Hard-und Software
+    an Schulen ein.
+  tags:
+  - tag_4
   id: 51
-  body: "Die Gelder aus dem „Lokalen Handlungsprogramm für Demokratie und Toleranz und gegen Extremismus“ werden ausschließlich zweckgebunden eingesetzt." 
-  tags: ["Internationalität"]
-thema_52:
+topic_52:
+  body: Dresden setzt sich gegenüber dem Freistaat Sachsen für die Anstellung von
+    Medienpädagog*innen an Schulen ein.
+  tags:
+  - tag_4
   id: 52
-  body: "Dresden nimmt befristet Sonderkredite zu unverzüglichen Beseitigung des Sanierungsstaus bei Schulen auf." 
-  tags: ["Bildung" , "Barrierefreiheit"]
-thema_53:
+topic_53:
+  body: Dresden erweitert das Angebot an Schulbibliotheken.
+  tags:
+  - tag_4
   id: 53
-  body: "Die Finanzausstattung der Städtischen Bibliotheken wird  entsprechend des Bibliotheksentwicklungsplanes gewährleistet. Ein weiterer Ausbau der Fahrbibliothek wird anstrebt." 
-  tags: ["Kultur" , "Bildung" , "Soziales" , "Kinder" , "Jugend" , "SeniorInnen"]
-thema_54:
+topic_54:
+  body: Dresden setzt sich für einen Ausbau der schulpsychologischen Beratung gegenüber
+    dem Freistaat Sachsen ein.
+  tags:
+  - tag_4
   id: 54
-  body: "Die Städtischen Bibliotheken erhalten zusätzliches Fachpersonal, damit alle Filialen an mindestens fünf Wochentagen ganztägig öffnen können. Die Fahrbibliothek erhält die notwendigen Investitionskosten, um das Haltestellennetz nach der Kürzung 2013 wieder ausbauen zu können." 
-  tags: [ "Kultur" , "Bildung" , "Kinder" , "Jugend" , "SeniorInnen"]
-thema_55:
+topic_55:
+  body: Dresden erhöht den Anteil der fest angestellten pädagogischen Kräfte an der
+    Volkshochschule nach den neuen Regelungen durch den Freistaat.
+  tags:
+  - tag_4
   id: 55
-  body: "Die geplanten Umzüge der Stadtteilbibliotheken Plauen und Neustadt in größere und barrierefreie Räumlichkeiten mit Sanitäreinrichtungen werden gesichert." 
-  tags: ["Kultur" , "Bildung" , "Barrierefreiheit"]
-thema_56:
+topic_56:
+  body: Dresden finanziert Kurse für Menschen mit Lerneinschränkungen an der Volkshochschule.
+  tags:
+  - tag_4
   id: 56
-  body: "Das Bildungsbüro wird nach Auslaufen des Bundesprogrammes „Lernen vor Ort“ fortgeführt." 
-  tags: ["Bildung" , "Soziales"]
-thema_57:
+topic_57:
+  body: Dresden führt die Aktion Schulbibliotheken fort und bezieht Oberschulen mit
+    ein.
+  tags:
+  - tag_4
   id: 57
-  body: "Dresden schafft die Bibliotheksgebühren für SchülerInnen, Studierende und Auszubildende wieder ab." 
-  tags: ["Bildung" , "Kultur" , "Armut" , "Soziales" , "Barrierefreiheit"]
-thema_58:
+topic_58:
+  body: Dresden wirkt bei Schulneubauten darauf hin, kleinere und dafür mehr wohnortnahe
+    Schulen zu errichten anstelle riesiger Schulkomplexe. // max. 3-4-zügige Schulen
+  tags:
+  - tag_4
   id: 58
-  body: "Dresden sichert an allen Schulen die Lernmittelfreiheit." 
-  tags: ["Bildung" , "Kinder" , "Jugend" , "Familie"]
-thema_59:
+topic_59:
+  body: Die 128. Oberschule muß barrierefrei werden!
+  tags:
+  - tag_4
   id: 59
-  body: "Dresden gewährt Menschen mit geringem Einkommen vergünstigten oder kostenlosen Eintritt in seine Kultureinrichtungen, ohne den Etat der Einrichtungen zu verringern." 
-  tags: ["Kultur" , "Soziales" , "Armut" , "Barrierefreiheit"]
-thema_60:
+topic_60:
+  body: Dresden achtet bei Schulsanierungen und - neubauten darauf, dass Schulhorte
+    ausreichend Räume erhalten.
+  tags:
+  - tag_4
   id: 60
-  body: "Das städtische Modellprojekt “Kulturelle Bildung in Kindertageseinrichtungen” wird bei Erfolg nach der Modellphase weiter fortgesetzt." 
-  tags: ["Kultur" , "Bildung" , "Kinder" , "Jugend"]
-thema_61:
+topic_61:
+  body: Dresden baut das Angebot für das Planspiel Stadtrat aus, um Kommunalpolitik
+    erlebbarer und verständlicher zu machen
+  tags:
+  - tag_4
   id: 61
-  body: "Dresden richtet das neu zu gründende Gymnasium Dresden-West dauerhaft im Stadtteil Gorbitz ein." 
-  tags: ["Bildung" , "Stadtentwicklung" , "Kinder" , "Jugend"]
-thema_62:
+topic_62:
+  body: In Dresdner Schulen haben Werbeoffiziere der Bundeswehr keinen Zutritt.
+  tags:
+  - tag_4
   id: 62
-  body: "Schülerinnen und Schüler sollen den öffentlichen Nahverkehr mit preiswerten Monatskarten von beispielsweise 7,50€ nutzen können." 
-  tags: ["Bildung" , "Mobilität" , "Kinder" , "Jugend" , "Soziales" , "Familie"]
-thema_63:
+topic_63:
+  body: Dresden errichtet Demenz-WGs für Personen mit Demenzerkrankungen.
+  tags:
+  - tag_5
   id: 63
-  body: "Im Rahmen der Umsetzung der UN-Behindertenrechtskonvention sorgt Dresden dafür, dass in jedem Ortsamtsbereich eine Schule pro Schulart barrierefrei ist." 
-  tags: ["Barrierefreiheit" , "Bildung" , "Kinder" , "Jugend" , "Sport"]
-thema_64:
+topic_64:
+  body: Dresden befördert in seinem Städtischen Klinikum den Bereich der Ehrenamtlichen,
+    die sich um Frühchen-Bonding kümmern. Es wird versucht, gemeinsam mit der TU Dresden
+    zu erforschen, welche Auswirkungen das auf die körperliche Entwicklung der Neugeborenen
+    hat.
+  tags:
+  - tag_5
   id: 64
-  body: "VertreterInnen von Behindertenverbänden werden als sachkundige Einwohner in die Ausschüsse des Stadtrates berufen, um die Umsetzung der UN-Behindertenrechtskonvention zu begleiten."
-  tags: ["Barrierefreiheit" , "Beteiligung"]
-thema_65:
+topic_65:
+  body: Dresden vergrößert die Auswahl an Essen ohne Fleisch durch öffentliche und
+    kostenlose Fortbildungen.
+  tags:
+  - tag_5
   id: 65
-  body: "Sport- und Spielplätze von Schulen werden über deren Öffnungszeit hinaus der Allgemeinheit zugänglich gemacht."
-  tags: ["Kinder" , "Jugend" , "Familie" , "Sport"]
-thema_66:
+topic_66:
+  body: Dresden wirkt in öffentlichen Einrichtungen auf die Verwendung regionaler,
+    fair gehandelter und biologischer Produkte hin.
+  tags:
+  - tag_5
   id: 66
-  body: "Schulturnhallen werden weitestgehend für multifunktionale Nutzungen konzipiert." 
-  tags: ["Bildung" , "Sport" , "Stadtentwicklung"]
-thema_67:
+topic_67:
+  body: "*Pflege gehört zur öffentlichen Daseinsvorsorge! Mit Pflege darf kein Gewinn
+    generiert werden! Die Pflegekräfte müssen von ihrer Arbeit leben können! Dresden
+    wird Vorreiter für eine menschenwürdige Pflege! Die Stadt unterstützt bzw. initiiert
+    und fördert Projekte, die bei der deutschlandweiten Umsetzung dieser Ideen helfen."
+  tags:
+  - tag_5
   id: 67
-  body: "In stadteigenen Unternehmen und Unternehmen mit städtischer Beteiligung werden keine Leiharbeiterinnen und Leiharbeiter eingesetzt." 
-  tags: ["Wirtschaft" , "Arbeit", "Armut"]
-thema_68:
+topic_68:
+  body: "*Die Stadt unterstützt, fördert bzw. initiiert urbanes Gärtern und integriert
+    hierbei vor allem Wohnungslose, Hartz-IV-Empfänger, Schuldner und andere Bedürftige."
+  tags:
+  - tag_5
   id: 68
-  body: "Bei der Ausschreibung von befristeten Stellen durch die Stadtverwaltung oder ihre Tochterunternehmen ist der Grund der Befristung anzugeben." 
-  tags: ["Wirtschaft" , "Arbeit"]
-thema_69:
+topic_69:
+  body: "*Gesunde Ernährung bzw. Biomärkte u. ä. dürfen nicht zum Privileg von Besserverdienenden
+    bzw. Esoterikern werden. Die Stadt Dresden wird Vorreiter bei der Einrichtung
+    von Tafeln mit gesunden Lebensmitteln, die aus ökologischem Landbau, aus sächsischer
+    Produktion usw. stammen und deren Hersteller und Herstellerinnen faire Löhne erhalten.
+    Gleichzeitig unterstützt die Stadt damit die örtliche bzw. sächsische Landwirtschaft."
+  tags:
+  - tag_5
   id: 69
-  body: "Dresden koppelt die Vergabe von Aufträgen an die Gewährleistung von Mindestlöhnen in den ausführenden Unternehmen." 
-  tags: [ "Wirtschaft" , "Arbeit"]
-thema_70:
+topic_70:
+  body: Dresden verpflichtet Supermärkte, ab einer Verkaufsfläche XX, nicht verkaufte
+    Lebensmittel zu spenden statt sie wegzuwerfen (Vorbild Tschechien).
+  tags:
+  - tag_5
   id: 70
-  body: "Die Volkshochschule und das Heinrich-Schütz-Konservatorium, die wesentliche kulturelle Angebote für die Stadt erbringen, werden in die Lage versetzt, ihre Lehrkräfte und Beschäftigten angemessen zu bezahlen." 
-  tags: ["Bildung" , "Kultur", "Arbeit"]
-thema_71:
+topic_71:
+  body: Dresden setzt sich aktiv dafür ein, dass Frauen und Männer die gleichen beruflichen
+    Möglichkeiten haben.
+  tags:
+  - tag_6
   id: 71
-  body: "Dresden vergibt in Zukunft Fördermittel für Träger der freien Jugendhilfe im Rahmen mehrjähriger Leistungsverträge." 
-  tags: ["Jugend" , "Soziales" , "Arbeit"]
-thema_72:
+topic_72:
+  body: Dresden besetzt Führungspositionen je zur Hälfte mit Männern und Frauen.
+  tags:
+  - tag_6
   id: 72
-  body: "Die Stellen an Aufsichts- und Kassenpersonal in den Museen in kommunaler Trägerschaft werden in den Stellenplan der Stadt überführt, um die Zweiklassengesellschaft an Beschäftigten abzuschaffen." 
-  tags: [ "Arbeit" , "Kultur"]
-thema_73:
+topic_73:
+  body: Dresden geht bei der Umsetzung des Urteils des Bundesverfassungsgerichtes
+    zum Dritten Geschlecht voraus und passt Antragsformulare entsprechend an.
+  tags:
+  - tag_6
   id: 73
-  body: "Dresden verzichtet auf besondere bürokratische Hürden für StraßenmusikantInnen." 
-  tags: ["Kultur"]
-thema_74:
+topic_74:
+  body: Dresden trägt dafür Sorge, dass durch Ehrungen, Auszeichnungen und Preise,
+    die durch die Stadt verliehen werden, je zur Hälfte Frauen und Männer bedacht
+    werden.
+  tags:
+  - tag_6
   id: 74
-  body: "Das Jobcenter richtet seine Beratungs- und Unterstützungstätigkeit auch auf Studierende aus, die nach ihrem Hochschulabschluss keinen unmittelbaren Berufseinstieg finden." 
-  tags: ["Bildung", "Arbeit" , "Wirtschaft"]
-thema_75:
+topic_75:
+  body: Dresden stellt kostenlose Damenhygieneprodukte für Notfälle auf öffentlichen
+    Toiletten zur Verfügung.
+  tags:
+  - tag_6
   id: 75
-  body: "Für die Kultur- und Kreativwirtschaft legt die Stadt Dresden ein Ansiedlungsprogramm auf." 
-  tags: ["Wirtschaft",  "Arbeit" , "Kultur"]
-thema_76:
+topic_76:
+  body: Dresden hisst im Rahmen der CSD Woche die Regenbogenfahne am Rathaus.
+  tags:
+  - tag_6
   id: 76
-  body: "Dresden setzt die Förderung von Gewerbe- und Gründerzentren für kleine und mittelständische Unternehmen fort." 
-  tags: [ "Wirtschaft" , "Arbeit" , "Stadtentwicklung"]
-thema_77:
+topic_77:
+  body: Dresden ermöglicht ein Open Access, einen freien Zugang zu Wissen im Internet
+    oder anderen Medien.
+  tags:
+  - tag_7
   id: 77
-  body: "Die bisherigen Spielstätten des Theaters Junge Generation und der Staatsoperette werden nur für kulturelle Nachnutzung veräußert." 
-  tags: ["Kultur" , "Stadtentwicklung"]
-thema_78:
+topic_78:
+  body: Dresden baut das Breitbandnetz aus.
+  tags:
+  - tag_7
   id: 78
-  body: "Der Etat für die kommunale Kulturförderung an freie Träger und für Projekte wird um 50 % erhöht und zukünftig entsprechend der Tarifsteigerungen im öffentlichen Dienst dynamisiert." 
-  tags: ["Kultur" , "Arbeit" ]
-thema_79:
+topic_79:
+  body: Dresden bietet freies Gäste-Wlan in allen städtischen Gebäuden und an öffentlichen
+    Plätzen an und nutzt dabei die Zusammenarbeit mit Freifunk-Initiativen.
+  tags:
+  - tag_7
   id: 79
-  body: "Die Stadt richtet ein Probenzentrum für die Freie Szene der Darstellenden Künste, TänzerInnen und MusikerInnen ein, in dem EinzelkünstlerInnen und Gruppen kostengünstig Probenräume nutzen können." 
-  tags: [ "Kultur" , "Arbeit" , "Wirtschaft"]
-thema_80:
+topic_80:
+  body: "\"Vielfach sind öffentlich Gehwege, auch aus Gründen des Denkmalschutzes,
+    für Rollstuhlfahrer nicht oder nur schwer befahrbar. Dies gilt vor allem für die
+    Stadtteile Blasewitz, Leuben, Niedersedlitz und innerstädtisch vor allem für den
+    Theaterplatz (Kopfsteinpflaster). "
+  tags:
+  - tag_7
   id: 80
-  body: "Die Kultureinrichtungen in städtischer Trägerschaft erhalten zusätzliche Stellen für Museums-, Theater- und KulturpädagogInnen." 
-  tags: ["Kultur" , "Bildung" , "Kinder" , "Jugend"]
-thema_81:
+topic_81:
+  body: Dresden fördert Gruppen, Projekte und Einzelpersonen, die Workshops und Veranstaltungen
+    zur Vorbereitung der Kulturhauptstadtsbewerbung 2025 (in Kooperation mit dem Kulturhauptstadtbüro)
+    anbieten.
+  tags:
+  - tag_10
   id: 81
-  body: "Die Museums-, Theater- und KulturpädagogInnen in den städtischen Einrichtungen stehen Kindertageseinrichtungen kostenlos für kulturelle Bildung zur Verfügung." 
-  tags: ["Kultur" , "Kinder" , "Bildung"]
-thema_82:
+topic_82:
+  body: Dresden erweitert die  Atelierausbauförderung um  einen Mietzuschuss für die
+    Arbeitsräume von Künstler_innen.
+  tags:
+  - tag_10
   id: 82
-  body: "Dresden fördert Jugendverbände mit einem festen Fördersatz pro jugendlichem Mitglied und orientiert sich dabei mindestens an der im Sport gezahlten Pauschale (gegenwärtig 10 Euro)." 
-  tags: ["Jugend" , "Soziales"]
-thema_83:
+topic_83:
+  body: Dresden saniert pro Jahr mindestens eine städtische Kulturimmobilie und stellt
+    die nötigen Brandschutzmaßnahmen her.
+  tags:
+  - tag_10
   id: 83
-  body: "Dresden stellt Flächen, die nach zweimaliger Ausschreibung nicht verkauft werden können und nicht genutzte Flächen in städtischem Eigentum für gemeinnützige und nichtkommerzielle Zwecke zur Verfügung." 
-  tags: ["Stadtentwicklung" , "Kultur" , "Wirtschaft" , "Beteiligung"]
-thema_84:
+topic_84:
+  body: Dresden sorgt dafür, dass die gesamt Kunst- und Kulturszene von der Bewerbung
+    um dem Titel der Kulturhauptstadt Europas nachhaltig profitiert.
+  tags:
+  - tag_10
   id: 84
-  body: "Dresden verzichtet auf die Schließung von Bädern und prüft die Einrichtung neuer Bäder." 
-  tags: ["Sport" , "Kinder" , "Jugend", "Familie" , "SeniorInnen" , "Stadtentwicklung"]
-thema_85:
+topic_85:
+  body: Dresden richtet im Kulturamt eine Stelle für die Freien Szenen aller Kunstrichtungen
+    ein.
+  tags:
+  - tag_10
   id: 85
-  body: "Dresden saniert das Sachsenbad." 
-  tags: [ "Sport" , "Stadtentwicklung"]
-thema_86:
+topic_86:
+  body: Dresden sorgt dafür, dass die Bühnen und Probebühnen aller städtischer Theater
+    zeitweise durch Akteure der Freien Szene Darstellender Künstler_innen genutzt
+    werden können.
+  tags:
+  - tag_10
   id: 86
-  body: " Dresden nutzt seine Einrichtungen regelmäßig für Ausstellungen und zahlt dabei Ausstellungshonorare für die KünstlerInnen." 
-  tags: ["Kultur" , "Arbeit" , "Wirtschaft" , "Soziales"]
-thema_87:
+topic_87:
+  body: Dresden hält die Honoraruntergrenzen für Künstler*innen ein und versetzt geförderte
+    Vereine in die Lage, dies ebenfalls zu tun.
+  tags:
+  - tag_10
   id: 87
-  body: " Die Seniorenbegegnungsstätten werden so ausgestattet, dass sie Funktionen von Stadtteilbegegnungszentren übernehmen können." 
-  tags: ["Kultur" , "SeniorInnen" , "Soziales" , "Familie" , "Stadtentwicklung"]
-thema_88:
+topic_88:
+  body: Dresden erhöht die institutionelle Förderung und die Projektförderung im Kulturbereich
+    deutlich.
+  tags:
+  - tag_10
   id: 88
-  body: " Die Verwaltung erarbeitet ein Betreiberkonzept für den umgebauten Kulturpalast, dass die kulturelle Nutzung durch verschiedene künstlerische Genre zulässt." 
-  tags: ["Kultur" , "Wirtschaft" , "Internationalität"]
-thema_89:
+topic_89:
+  body: Dresden errichtet Kulturhäuser/Nachbarschafträume in allen Stadtteilen.
+  tags:
+  - tag_10
   id: 89
-  body: "Der Vorplatz des Kulturpalastes wird unter Mitwirkung der Kunstkommission gestaltet." 
-  tags: ["Kultur" , "Internationalität"]
-thema_90:
+topic_90:
+  body: Dresden geht bei den Mitarbeiterinnen und Mitarbeitern der HSKD schrittweise
+    von Honorarverträgen zu Festanstellungen über.
+  tags:
+  - tag_10
   id: 90
-  body: "Das Wandbild „Der Zug der Roten Fahne“ am Kulturpalast wird restauriert und an seinem angestammten Platz erhalten." 
-  tags: ["Kultur" , "Geschichte"]
-thema_91:
+topic_91:
+  body: Dresden ermöglicht den kostenloser Eintritt für Kinder und Jugendliche in
+    die städtischen Museen.
+  tags:
+  - tag_10
   id: 91
-  body: "Beim Umbau des Kraftwerks Mitte wird  für das Theater Junge Generation und die Staatsoperette wird ein Spielplatz für die jungen Besucher eingerichtet." 
-  tags: ["Kultur" , "Kinder" , "Jugend" , "Familie" , "Stadtentwicklung"]
-thema_92:
+topic_92:
+  body: Dresden reduziert die Antragsbürokratie für freie Träger, die eine städtische
+    Förderung erhalten.
+  tags:
+  - tag_10
   id: 92
-  body: "Für die Dresdner Philharmonie, die Dresdner Musikfestspiele, die städtischen Theater SOD, TJG, Societätstheater und das Europäische Zentrum der Künste sowie weitere interessierte Kultureinrichtungen wird ein gemeinsamer Ticketverkauf eingerichtet." 
-  tags: ["Kultur" , "Wirtschaft"]
-thema_93:
+topic_93:
+  body: Dresden verstärkt die Kontrollen der Freihaltung von Blindenleiteinrichtungen.
+  tags:
+  - tag_11
   id: 93
-  body: "Dresden bemüht sich, dass der Dresdner Fernsehturm für die Öffentlichkeit wiedereröffnet wird." 
-  tags: ["Kultur" , "Stadtentwicklung" , "Geschichte"]
-thema_94:
+topic_94:
+  body: Dresden bemüht sich, bei allen Straßenbauvorhaben die höchstmögliche Zahl
+    von abgesenkten Bordsteinen umzusetzen, um die Querung der Straßen für alle Nutzer*innen
+    zu verbessern.
+  tags:
+  - tag_11
   id: 94
-  body: "Die Erneuerung des Orang-Utan-Hauses und weiterer Bauten im Dresdner Zoo wird unterstützt." 
-  tags: ["Kultur" , "Familie"]
-thema_95:
+topic_95:
+  body: Dresden bringt vor allen öffentlichen Gebäuden Fahrradbügel in ausreichender
+    Anzahl an.
+  tags:
+  - tag_11
   id: 95
-  body: "Die Stadt steht der SG Dynamo Dresden auch in schwierigen Zeiten zur Seite." 
-  tags: ["Sport" , "Sicherheit", "Kultur"]
-thema_96:
+topic_96:
+  body: Dresden gibt alle Einbahnstraßen, bei denen es keine Hinderungsgründe gibt,
+    beidseitig für den Radverkehr frei.
+  tags:
+  - tag_11
   id: 96
-  body: "Stadtteilfeste gemeinnütziger Initiativen erhalten mehr Unterstützung von der Stadt." 
-  tags: ["Kultur" , "Stadtentwicklung" , "Familie"]
-thema_97:
+topic_97:
+  body: Dresden sorgt für mehr Sicherheit im Straßenverkehr, indem die Anzahl der
+    Tempo-30-Zonen erhöht und die Grünphasen für Fußgänger*innen verlängert werden.
+  tags:
+  - tag_11
   id: 97
-  body: "Die Stadt schreibt in regelmäßigem Rhythmus Wettbewerbe für Laienchöre aus." 
-  tags: ["Kultur "]
-thema_98:
+topic_98:
+  body: Dresden erneuert den Radweg entlang der Teplitzer Straße.
+  tags:
+  - tag_11
   id: 98
-  body: "Dresden hebt die Polizeiverordnung über das Verbot der Alkoholabgabe über die Straße durch Schank- und Speisewirtschaften in der Äußeren Neustadt auf." 
-  tags: ["Wirtschaft"]
-thema_99:
+topic_99:
+  body: Dresden schafft zwischen Pirnaischer Landstraße und Bhf Niedersedlitz auf
+    beiden Seiten der Bahnhofstraße je einen Radstreifen.
+  tags:
+  - tag_11
   id: 99
-  body: "Die Stadt ehrt  Frauen und Männer aus der Arbeiterbewegung durch die Benennung von Straßen, Plätzen und Schulen." 
-  tags: ["Geschichte" , "Kultur"]
-thema_100:
+topic_100:
+  body: Dresden gestaltet den Vorplatz des Bahnhofes Niedersedlitz barrierefrei um.
+  tags:
+  - tag_11
   id: 100
-  body: "Es soll die Wiederbenennung der Josephinenstraße nach dem Dresdner Bergsteiger und Antifaschisten Kurt Schlosser erfolgen." 
-  tags: ["Geschichte"]
-thema_101:
+topic_101:
+  body: Dresden schafft einen Fussgängerüberweg über die Großenhainer Straße auf Höhe
+    der Erfurter Straße.
+  tags:
+  - tag_11
   id: 101
-  body: "Der 13. Februar 1945 ist für Dresden Verpflichtung, sich der Verantwortung Deutschlands für den Zweiten Weltkrieg zu stellen und sich für den Frieden einzusetzen." 
-  tags: ["Internationalität" , "Geschichte"]
-thema_102:
+topic_102:
+  body: Dresden setzt sich bei der DB und ihren Tochterfirmen dafür ein, dass die
+    Fahrradmitnahmekapazität in Dresdner S-Bahnen erhöht wird.
+  tags:
+  - tag_11
   id: 102
-  body: "Dresden lobt einen Preis aus für herausragende Studienabschlussarbeiten, die sich mit Themen der sozialen, baulichen oder verkehrlichen Stadtentwicklung beschäftigen und deren Ergebnisse für die Stadt von Bedeutung sind." 
-  tags: ["Wissenschaft" , "Stadtentwicklung" , "Wirtschaft"]
-thema_103:
+topic_103:
+  body: Dresden richtet eine Fährverbindung zwischen Pieschen und dem Ostragehege
+    ein.
+  tags:
+  - tag_11
   id: 103
-  body: "Neuanschaffung von Software in der Stadtverwaltung erfolgt künftig auf der Basis Freier Software (Open Source), statt teurer Lizenzen." 
-  tags: ["Wirtschaft"]
-thema_104:
+topic_104:
+  body: Dresden sorgt dafür, dass in stark frequentierten Bereichen der Äußeren Neustadt
+    Verkehrsmittel Schritttempo fahren und so die Sicherheit der Fußgänger erhöht
+    wird. Dies gilt besonders in den sommerlichen Nachtstunden und an den Wochenenden.
+  tags:
+  - tag_11
   id: 104
-  body: "Die Stadt Dresden tritt konsequent dafür ein, dass auf ihrem Territorium weder Rüstungsproduktion noch Forschung für militärische Zwecke stattfindet, unter anderem durch öffentliche Veranstaltungen." 
-  tags: ["Wissenschaft"]
-thema_105:
+topic_105:
+  body: Dresden verbessert die Verkehrssituation am Ullersdorfer Platz und verlegt
+    die Gleisschleife östlich der Rossendorfer Straße.
+  tags:
+  - tag_11
   id: 105
-  body: "Einmal jährlich schreibt Dresden einen kommunalen Preis für wissenschaftliche Abschlussarbeiten von Hochschulabsolventen der ortsansässigen Hochschulen mit Bezug zu Dresden aus." 
-  tags: ["Wissenschaft" , "Wirtschaft"]
-thema_106:
+topic_106:
+  body: Dresden setzt sich dafür ein, dass die DVB den Takt auf fahrgaststarken Linien
+    auf 7,5min oder 5min erhöht.
+  tags:
+  - tag_11
   id: 106
-  body: "Für die Zusammenarbeit zwischen Dresdens Wirtschaft und den hier ansässigen Forschungseinrichtungen wird im Amt für Wirtschaftsförderung eine Vernetzungsstelle eingerichtet." 
-  tags: [" Wissenschaft" , "Wirtschaft"]
-thema_107:
+topic_107:
+  body: Dresden setzt sich für Einführung eines free floating Carsharing-Systems nach
+    Leipziger Vorbild ein.
+  tags:
+  - tag_11
   id: 107
-  body: "Dresden erhebt Daten über die Aufenthaltssituation ausländischer Studierender und trägt im Rahmen seiner Möglichkeiten zur Verbesserung ihrer Situation bei." 
-  tags: ["Wissenschaft" , "Internationalität" , "Jugend" , "Soziales"]
-thema_108:
+topic_108:
+  body: Dresden achtet bei Straßenbauvorhaben darauf, dass beim Um- oder Neubau von
+    Haltestellen Barrierefreiheit hergestellt wird.
+  tags:
+  - tag_11
   id: 108
-  body: "Dresden hält an den städtischen Krankenhäusern als Eigenbetrieben fest und schließt eine Privatisierung aus." 
-  tags: ["Gesundheit" , "Soziales" , "Wirtschaft"]
-thema_109:
+topic_109:
+  body: Dresden erhöht die Anzahl von Fahrradständern an Haltestellen.
+  tags:
+  - tag_11
   id: 109
-  body: "Dresden stoppt die rein kommerziellen Grundstücksverkäufe und gibt bei jeder Verkaufsausschreibung ein Nutzungsziel an." 
-  tags: ["Stadtentwicklung" , "Beteiligung" , "Wirtschaft"]
-thema_110:
+topic_110:
+  body: Dresden stellt Fahrradreparaturstationen mit Werkzeug und Pumpe entlang des
+    Elberadweges bereit.
+  tags:
+  - tag_11
   id: 110
-  body: "Ungenutzte Immobilien im Eigentum der Stadt oder deren Tochtergesellschaften sollen verstärkt zur preiswerten Zwischennutzung an Bildende KünstlerInnen sowie an die Kultur- und Kreativwirtschaft vermietet werden. Die Stadt stellt dafür die notwendigen Mindestanforderungen an Brandschutzmaßnahmen her." 
-  tags: ["Wirtschaft" , "Kultur" , "Stadtentwicklung"]
-thema_111:
+topic_111:
+  body: Dresden rüstet auf gepflasterten Straßen asphaltierte Radspuren zur leichteren
+    Nutzung für Radfahrer nach.
+  tags:
+  - tag_11
   id: 111
-  body: "Bei der Errichtung von Bauwerken durch Dresdner stadteigene Unternehmen wird die Verpflichtung zu Kunst am Bau eingehalten." 
-  tags: ["Kultur" , "Stadtentwicklung"]
-thema_112:
+topic_112:
+  body: Dresden setzt das Mittelinselprogramm zur sichereren Straßenquerung um und
+    stellt dafür mehr Mittel zur Verfügung.
+  tags:
+  - tag_11
   id: 112
-  body: "Dresden rekommunalisiert die DREWAG vollständig." 
-  tags: ["Wirtschaft" , "Umwelt"]
-thema_113:
+topic_113:
+  body: Dresden errichtet Fahrradgaragen an Bereichen wie beispielsweise Wiener Platz,
+    Altmarkt, Zoo Dresden.
+  tags:
+  - tag_11
   id: 113
-  body: "Alle stadtplanerischen Maßnahmen sind unter dem Blickwinkel einer Ressourcen- und Energieeffizienz zu planen." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_114:
+topic_114:
+  body: Dresden setzt sich dafür ein, dass alle Haltestellen barrierefrei sind.
+  tags:
+  - tag_11
   id: 114
-  body: "Die Dächer öffentlicher Gebäude sollen mehr für Solartechnik genutzt werden." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_115:
+topic_115:
+  body: Dresden sorgt dafür, dass abgesenkte Bordsteine tatsächlich barrierefrei sind.
+  tags:
+  - tag_11
   id: 115
-  body: "Dresden setzt sich für den Erhalt des Pumpspeicherwerks Niederwartha ein." 
-  tags: ["Umwelt" , "Wirtschaft"]
-thema_116:
+topic_116:
+  body: Dresden erhält das Sozialticket mit einem Preiserlass von mindestens 50%.
+  tags:
+  - tag_11
   id: 116
-  body: "Umstrukturierung der Verwaltung - Schaffung eines Geschäftsbereiches für Umwelt ." 
-  tags: ["Umwelt"]
-thema_117:
+topic_117:
+  body: Dresden erhöht den kommunalen Anteil an der Finanzierung der DVB und senkt
+    sukzessiv die Fahrpreise.
+  tags:
+  - tag_11
   id: 117
-  body: "Die Stadt wirkt auf ihre Energieunternehmen (DREWAG, Enso) für die Eigenverwertung der vorbehandelten Abfälle aus der Biomechanischen Abfallanlage ein." 
-  tags: ["Umwelt" , "Wirtsschaft"]
-thema_118:
+topic_118:
+  body: Dresden nutzt alle Möglichkeiten, um den Umstieg aufs umweltfreundliche Fahrrad
+    zu erleichtern.
+  tags:
+  - tag_11
   id: 118
-  body: "Dresden nutzt sein Vorkaufsrecht für Flächen, die in Überschwemmungsgebieten liegen, konsequent aus." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-
-thema_119:
+topic_119:
+  body: Dresden beseitigt die Verwerfungen auf dem Fußweg am Königsheimplatz zwischen
+    Blasewitzerund Fiedlerstraße.
+  tags:
+  - tag_11
   id: 119
-  body: "Dresden untersagt alle Neubaumaßnahmen für Wohn- und Gewerbezwecke in Überschwemmungsgebieten und prüft die Gestaltung weiterer Retentionsflächen." 
-  tags: ["Umwelt" , "Wirtschaft"]
-
-thema_120:
+topic_120:
+  body: Dresden reduziert die Anzahl der Ampeln, bei denen Fußgänger ihre Grünphase
+    erst anfordern müssen.
+  tags:
+  - tag_11
   id: 120
-  body: "Die Themen Naturschutz, Ökologie, Abfalltrennung und Energie sollen durch die Stadt an Schulen vermittelt werden." 
-  tags: ["Umwelt" , "Bildung" , "Wirtschaft"]
-thema_121:
+topic_121:
+  body: Dresden reduziert auf Fußwegen die Verwendung von Kopfsteinpflaster.
+  tags:
+  - tag_11
   id: 121
-  body: "Dresden fördert die Gründung von Bürgersolargemeinschaften." 
-  tags: ["Umwelt"]
-thema_122:
+topic_122:
+  body: Dresden sorgt für ein hinreichend dichtes Netz von E-Tankstellen.
+  tags:
+  - tag_11
   id: 122
-  body: "Der Bau von mehrgeschossigen Wohnhäusern für mehrere Familien und Nutzer hat Vorrang vor Einfamilienhäusern." 
-  tags: ["Wohnen" , "Umwelt" , "Stadtentwicklung"]
-thema_123:
+topic_123:
+  body: Dresden entwickelt ein Konzept zur Umsetzung eines fahrscheinlosen ÖPNV.
+  tags:
+  - tag_11
   id: 123
-  body: "Dresden renaturiert jedes Jahr mindestens 2 Hektar Brachfläche und gibt sie für öffentliche Nutzungen frei." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_124:
+topic_124:
+  body: Dresden legt einen besseren Radweg vom Industriegelände zum Albertplatz an.
+  tags:
+  - tag_11
   id: 124
-  body: "An Straßen, Parks und Gewässern sollen, wo es möglich ist, zur Vermehrung von Vögeln und Kleintieren, Hecken und Sträucher angepflanzt werden." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_125:
+topic_125:
+  body: Dresden erweitert seine Straßenbahnflotte nur noch um rollstuhlgerechte und
+    E-Scooter-taugliche Modelle.
+  tags:
+  - tag_11
   id: 125
-  body: "Die Stadt Dresden kauft die letzte große Grünfläche im Ortsamt Pieschen zurück und sorgt für den Erhalt der „Hufewiesen Trachau." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_126:
+topic_126:
+  body: Dresden setzt sich dafür ein, dass Schüler (Nachweis mit Kundenkarte) nach
+    ihrem 15. Geburtstag weiter ermäßigte Einzelfahrscheine der DVB nutzen könne.
+    Nicht für jeden Schüler lohnt sich eine Monatskarte, wenn die Fahrscheine nur
+    in der Freizeit (Training/Bibliothek u.ä.) benötigt wird.
+  tags:
+  - tag_11
   id: 126
-  body: "Die Integration der Kleingartensparten in die Stadtentwicklung zur Verbesserung des Verhältnisses zwischen Siedlungsbau und Grünbereich wird durch eine langfristige Konzeption gesichert." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_127:
+topic_127:
+  body: Dresden wirkt auf den Ausbau des Netzes von Carsharing-Stationen hin und überlässt
+    hierfür auch Stellflächen für Anbieter.
+  tags:
+  - tag_11
   id: 127
-  body: "Dresden erarbeitet ein Kleingartenkonzept, welches Kleingärtnern eine mindestens 10-jährige Planungszeit ermöglicht." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_128:
+topic_128:
+  body: 'Dresden wirkt drauf hin, weitere Mobilitätspunkte (Rad/ ÖPNV/ Carsharing)nach
+    dem Vorbild Pirnaischer Platz zu errichten. '
+  tags:
+  - tag_11
   id: 128
-  body: "Fluss- und Bachläufe sollen so weit möglich und unter Berücksichtigung der Belange des Flutschutzes zurück zu Naturräumen umgestaltet werden." 
-  tags: ["Umwelt" , "Stadtentwicklung"]
-thema_129:
+topic_129:
+  body: 'Dresden führt nach dem Vorbild Straßburgs auf Park&Ride-Parkplätzen ein,
+    dass Parkscheine zugleich ÖPNV-Familientagestickets sind (dort 4,10€ für bis zu
+    7 Personen) '
+  tags:
+  - tag_11
   id: 129
-  body: "Die in Dresden ansässigen Tierheime werden in ausreichendem Maße finanziell ausgestattet." 
-  tags: ["Soziales" , "Umwelt"]
-thema_130:
+topic_130:
+  body: Die Tram- und Bushaltestellen, die noch nicht barrierefrei ausgebaut sind,
+    werden barrierefrei umgebaut. Dies gilt vor allem für die Haltestellen außerhalb
+    des Stadtzentrums.
+  tags:
+  - tag_11
   id: 130
-  body: "Die Stadt gibt alle zwei Jahre einen Tierschutzbericht zur Sensibilisierung  der Öffentlichkeit für diese Thematik heraus." 
-  tags: ["Umwelt"]
-thema_131:
+topic_131:
+  body: Der Umbau von Haltestellen, damit das Ein-und Aussteigen erleichtert wird
+    (für Leute mit Kinderwagen, Rollator usw.) ist zu beschleunigen.
+  tags:
+  - tag_11
   id: 131
-  body: "Fluss- und Bachläufe sollen so weit möglich und unter Berücksichtigung der Belange des Flutschutzes zurück zu Naturräumen umgestaltet werden." 
-  tags: ["Barrierefreiheit" , "Wirtschaft" , "Wohnen"]
-thema_132:
+topic_132:
+  body: 'Die Straßenreinigung ist so zu ordnen: Im Windschatten liegende Straßen sind
+    unter Beachtung der Witterungsverhältnisse öfter zu säubern. Auffallende Schadstellen
+    (an Schnittgerinnen, Fahrrad/Fußwegen sind durch das Reinigungspersonal dem Verantwortlichen
+    zu melden).'
+  tags:
+  - tag_11
   id: 132
-  body: "15% der Investitionen im Straßenbau werden für Rad- und Gehwege eingesetzt." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_133:
+topic_133:
+  body: Die Preise für das Sozialticket sind in der kommenden Wahlperiode nicht zu
+    erhöhen.
+  tags:
+  - tag_11
   id: 133
-  body: "Dresden errichtet ein geschlossenes Radverkehrsnetz unter besonderer Berücksichtigung von SchülerInnenradwegen und bereinigt Unfallschwerpunkte und Barrieren im Radverkehr." 
-  tags: ["Mobilität" , "Stadtentwicklung" , "Kinder" , "Jugend"]
-thema_134:
+topic_134:
+  body: 'Reduzierung des innerstädtischen PKW-Verkehrs: Das Straßenbahn-und Busnetz
+    ist auszubauen.'
+  tags:
+  - tag_11
   id: 134
-  body: "Zur Verbesserung des Radverkehrs in Dresden soll der Elberadweg in Pieschen weitergebaut und Rampen am Elberadweg zur Carolabrücke (Neustädter Seite) sowie auf der Augustusbrücke separate Radwege eingerichtet werden." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_135:
+topic_135:
+  body: 'Straßenbahn Zellescher Weg: Von der Zwinglistraße über den Zelleschen Weg
+    bis zum Nürnberger Platz ist die geplante Trasse zum Wendepunkt an der Nöthnitzer
+    Straße anzuschließen. Die Fortführung vom Nürnberger Platz nach Löbtau über die
+    Busbahntrasse ist zu planen. '
+  tags:
+  - tag_11
   id: 135
-  body: "Dresden gestaltet in der kommenden Wahlperiode alle ständigen Straßenbahn- und Bushaltestellen barrierefrei." 
-  tags: ["Mobilität" , "Barrierefreiheit"]
-thema_136:
+topic_136:
+  body: 'Elektrotankstellen: In DD ist für E-Fahrzeuge einTanknetz aufzubauen und
+    in geeigneter Form zu popularisieren.'
+  tags:
+  - tag_11
   id: 136
-  body: "Dresden sorgt für bedarfsgerechte Fahrradstellplätze an den Bahnhöfen." 
-  tags: ["Mobilität" , "Umwelt" , "Stadtentwicklung"]
-thema_137:
+topic_137:
+  body: Verbesserung des Eisenbahnverkehrs von und nach Dresden, Neubau S-Bahnhaltestelle
+    Stauffenbergallee
+  tags:
+  - tag_11
   id: 137
-  body: "Dresden führt jedes Jahr einen Aktionstag „Autofreie Stadt“ durch, an dem der ÖPNV kostenlos und die Innenstadt weitgehend für den Autoverkehr gesperrt ist." 
-  tags: ["Mobilität" , "Umwelt" , "Stadtentwicklung"]
-thema_138:
+topic_138:
+  body: Dresden unterstütz den Ausbau von Bikesharing.
+  tags:
+  - tag_11
   id: 138
-  body: "Für die Äußere Neustadt wird ein Konzept zur Verminderung des Autoverkehrs im Stadtteil entwickelt." 
-  tags: ["Mobilität" , "Stadtentwicklung" , "Umwelt"]
-thema_139:
+topic_139:
+  body: Dresden setzt mehr Zebrastreifen ein.
+  tags:
+  - tag_11
   id: 139
-  body: "Die Stadt Dresden arbeitet an einer zweispurigen, schnellen Sanierung der Königsbrücker Straße." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_140:
+topic_140:
+  body: Dresden bewirbt sein bestehendes P+R Angebot besser
+  tags:
+  - tag_11
   id: 140
-  body: "Dresden treibt die Errichtung eines Parkhauses für den zentralen TU-Campus voran." 
-  tags: ["Mobilität" , "Wissenschaft"]
-thema_141:
+topic_141:
+  body: Dresden benennt im Bereich der neu entstehenden Lingner-Stadt eine Robotron-Straße
+    oder einen Robotron-Platz zur Erinnerung an die Leistungen der Wissenschaftler
+    und Ingenieure bei der Entwicklung der Computertechnik in der DDR.
+  tags:
+  - tag_12
   id: 141
-  body: "Der Fußgängertunnel am Neustädter Markt soll nicht verfüllt werden." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_142:
+topic_142:
+  body: "\"Dresden entwickelt die  Robotronkantine mit einem Konzept, welches nachhaltig
+    ist und den Bürger*innen der Stadt offensteht, als einen Beitrag der Kulturhauptstadtbewerbung"
+  tags:
+  - tag_12
   id: 142
-  body: "Dresden richtet kurzfristig die Fähre Pieschen - Ostragehege wieder ein. Der Bau einer Brücke an dieser Stelle wird geprüft." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_143:
+topic_143:
+  body: Dresden saniert den Fernsehturm.
+  tags:
+  - tag_12
   id: 143
-  body: "Die Bushaltestelle im Jägerpark wird wieder in den regelmäßigen ÖPNV-Takt eingebunden." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_144:
+topic_144:
+  body: Dresden verändert das Nutzungskonzept Neumarkt und ermöglicht eine reguläre
+    Nutzbarkeit auf Grundlage der Sondernutzungssatzung.
+  tags:
+  - tag_13
   id: 144
-  body: "Es wird im Internet ein Verzeichnis der Dresdner Ampeln veröffentlicht, in dem die jeweiligen Schaltrhythmen der Ampeln erklärt werden." 
-  tags: ["Mobilität" , "Beteiligung" ]
-thema_145:
+topic_145:
+  body: Dresden ernennt einen Beauftragten / eine Beauftragte für Straßenkunst und
+    Straßenmusik.
+  tags:
+  - tag_13
   id: 145
-  body: "Die Buslinie 94 wird von Cossebaude über die Niederwarthaer Brücke bis zum rechtselbischen Anschluss an den ÖPNV in Radebeul verlängert." 
-  tags: ["Mobilität" ]
-thema_146:
+topic_146:
+  body: Dresden leitet den Abbau von Videoüberwachung im öffentlichen Raum ein.
+  tags:
+  - tag_13
   id: 146
-  body: "Die Verkehrssicherheit soll an Unfallschwerpunkten insbesondere in Wohngebieten, vor Kindertageseinrichtungen und Schulen erhöht werden." 
-  tags: ["Mobilität" , "Kinder" , "Jugend" , "Familie" , "SeniorInnen"]
-thema_147:
+topic_147:
+  body: Dresden baut ein Orang-Utan-Haus.
+  tags:
+  - tag_13
   id: 147
-  body: "Die Herausbildung der Boulevardachse vom Hauptbahnhof bis zum Alaunplatz wird auch durch die Sperrung der Augustusbrücke und zeitweise Sperrung der Alaunstraße für den Autoverkehr befördert." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_148:
+topic_148:
+  body: Dresden erhöht die Anzahl der Altpapiercontainer.
+  tags:
+  - tag_13
   id: 148
-  body: "Dresden führt ein Sozialticket für den Öffentlichen Personennahverkehr ein, welches maximal 50% der regulären Fahrpreise kostet." 
-  tags: ["Mobilität" , "Soziales" , "Armut"]
-thema_149:
+topic_149:
+  body: Dresden erhöht am Elberadweg auf dem Neustädter Ufer zwischen Marien- und
+    Albertbrücke die Kapazität der Mülleimer.
+  tags:
+  - tag_13
   id: 149
-  body: "In Dresden wird ein Konzept für eine fahrscheinlose Nutzung des ÖPNV entwickelt." 
-  tags: ["Mobilität"]
-thema_150:
+topic_150:
+  body: Dresden stellt im Alaunpark weitere große versenkbare Müllbehälter auf.
+  tags:
+  - tag_13
   id: 150
-  body: "Die Ortsamtsverfassung wird abgelöst. Die Ortschaftsverfassung wird stattdessen zur Gewährleistung von mehr Mitbestimmung eingeführt." 
-  tags: ["Beteiligung"]
-thema_151:
+topic_151:
+  body: Dresden mäht öffentliche Grünflächen nur noch zwei Mal pro Jahr, um die Insektenvielfalt
+    zu wahren.
+  tags:
+  - tag_13
   id: 151
-  body: "Die Stadt Dresden gibt bei standortkonkreten Bauvorhaben frühzeitig Informationen an AnwohnerInnen weiter und bindet Bürgervereine und Stadtteilinitiativen in die Planung ein." 
-  tags: ["Beteiligung" , "Stadtentwicklung"]
-thema_152:
+topic_152:
+  body: Dresden wirkt darauf hin, dass die Äußere Neustadt in Zukunft ein autofreier
+    Stadtteil wird.
+  tags:
+  - tag_13
   id: 152
-  body: "Zwei Mal im Jahr finden in Dresden Gespräche statt, in denen die Verwaltung mit BürgerInnen über durch sie gestellte Stadtentwicklungsthemen ins Gespräch kommt." 
-  tags: ["Beteiligung" , "Stadtentwicklung"]
-thema_153:
+topic_153:
+  body: Dresden erteilt innerhalb des Altstadtringes keine Genehmigungen für Feuerwerke.
+  tags:
+  - tag_13
   id: 153
-  body: "Dresden erarbeitet eine Beteiligungssatzung, in der die Mitwirkungsmöglichkeiten junger Menschen beschrieben werden." 
-  tags: ["Beteiligung" , "Kinder" , "Jugend"]
-thema_154:
+topic_154:
+  body: Dresden erhöht die Anzahl öffentlicher, kostenloser Toiletten.
+  tags:
+  - tag_13
   id: 154
-  body: "Dresden führt einmal im Jahr einen Stadtentwicklungssalon durch, indem durch die Verwaltung in Planung befindliche Maßnahmen mit strategischer Bedeutung für die Gesamtstadt präsentiert werden." 
-  tags: ["Beteiligung" , "Stadtentwicklung"]
-thema_155:
+topic_155:
+  body: Dresden bemüht sich um die Einführung einer städtischen Abgassteuer.
+  tags:
+  - tag_13
   id: 155
-  body: "Ortschaftsräte und Ortsbeiräte sind vollständig und regelmäßig über geplante Bauvorhaben in ihrem Zuständigkeitsbereich zu informieren." 
-  tags: ["Beteiligung" , "Stadtentwicklung"]
-thema_156:
+topic_156:
+  body: Dresden schafft die Stelle eines Nachtbürgermeisters für die Neustadt.
+  tags:
+  - tag_13
   id: 156
-  body: "Die Mitsprache- und Entscheidungsbefugnisse von gewählten Schülervertretungen an Schulen werden durch die Stadt über die schulischen Angelegenheiten hinaus erweitert." 
-  tags: ["Beteiligung" , "Kinder" , "Jugend"]
-thema_157:
+topic_157:
+  body: Dresden schafft mehr Trinkbrunnen für Menschen und Tiere.
+  tags:
+  - tag_13
   id: 157
-  body: "In Dresden gibt es einen bedingungs- und begründungslosen Zugang zu Verwaltungsinformationen für Jede und Jeden." 
-  tags: ["Beteiligung"]
-thema_158:
+topic_158:
+  body: Dresden führt eine erhöhte Hundesteuer für Kampfhunde ein.
+  tags:
+  - tag_13
   id: 158
-  body: "Dresden saniert die historischen Holztribüne im Heinz-Steyer-Stadion und verzichtet auf einen Abriss." 
-  tags: ["Sport" , "Geschichte"]
-thema_159:
+topic_159:
+  body: Dresden beauftragt Künstler*innen mit der Neugestaltung der städtischen Gullydeckel,
+    zum Beispiel könnte die Stadtkarte darauf abgebildet sein. Als Beispiel dient
+    die Stadt Seattle.
+  tags:
+  - tag_13
   id: 159
-  body: "Die Stadt setzt sich für den Erhalt des Wasserstraßenamtes Dresden ein." 
-  tags: ["Wirtschaft" , "Mobilität"]
-thema_160:
+topic_160:
+  body: Dresden bringt an Müllbehältern Pfandringe an.
+  tags:
+  - tag_13
   id: 160
-  body: "Städtische Museen sind für Kinder und Jugendliche unter 18 Jahren kostenlos." 
-  tags: ["Kultur" , "Soziales" , " Kinder" ,  "Jugend" , "Familie" , "Bildung"]
-thema_161:
+topic_161:
+  body: Dresden weist mehr Grillplätze, darunter speziell auch an der Elbe, aus.
+  tags:
+  - tag_13
   id: 161
-  body: "Das Dixielandfestival ist aus dem Kulturhaushalt zu fördern." 
-  tags: ["Kultur"]
-thema_162:
+topic_162:
+  body: Dresden reduziert die Einschränkungen für Straßenkünstler_innen.
+  tags:
+  - tag_13
   id: 162
-  body: "Alle Haltestellen im Stadtgebiet werden mit Sitzgelegenheiten ausgestattet." 
-  tags: ["Mobilität" , "Barrierefreiheit"]
-thema_163:
+topic_163:
+  body: Dresden erhöht stetig die Anzahl von Bänken, Sitzgelegenheiten und Ruheinseln
+    in allen Stadtbereichen.
+  tags:
+  - tag_13
   id: 163
-  body: "Dresden setzt sich für eine Rückübertragung des Sowjetischen Garnisonsfriedhofs vom Freistaat Sachsen an die Landeshauptstadt Dresden ein, um diesen als Kulturdenkmal und Mahnmal der Geschichte in seiner jetzigen Sachgesamtheit zu erhalten." 
-  tags: ["Geschichte" , "Kultur"]
-thema_164:
+topic_164:
+  body: Dresden führt ein aktives Brachflächenmanagement ein und kooperiert dabei
+    mit Initiativen, Wagenplätzen und Stadtgärten.
+  tags:
+  - tag_13
   id: 164
-  body: "Dresden bekennt sich zur Erweiterung des Straßenbahnnetzes der DVB." 
-  tags: ["Mobilität" , "Stadtentwicklung"]
-thema_165:
+topic_165:
+  body: Dresden schafft ein Anreizsystem für ökologisches Handeln, z.B. Bezuschussung
+    von Stoffwindel-Erstausstattungen, von Mehrwegsystemen für Take away und To go.
+  tags:
+  - tag_14
   id: 165
-  body: "Dresden stärkt die Kompetenzen des Hochbauamtes für Verbesserung von Kostensicherheit, Termintreue und Effizienz bei städtischen Bauvorhaben." 
-  tags: ["Stadtentwicklung"]
-thema_166:
+topic_166:
+  body: Dresden setzt sich dafür ein, dass gegen Pauschale der Veranstalter große
+    Feste mit umweltfreundlichstem Essgeschirr ausgestattet werden.
+  tags:
+  - tag_14
   id: 166
-  body: "Dresden setzt Bau und Sanierung seiner Schulen zügig um." 
-  tags: ["Bildung" , "Kinder", "Jugend"]
-thema_167:
+topic_167:
+  body: Dresden stattet Beutelspender für Hundekot mit Papiertüten aus.
+  tags:
+  - tag_14
   id: 167
-  body: "Die Stadt Dresden erkennt die Verdienste des Bündnisses „Nazifrei! Dresden stellt sich quer“ im Kampf gegen Naziaufmärsche in Dresden um und am 13. Februar in den vergangenen Jahren als Partner an." 
-  tags: ["Geschichte" , "Internationalität"]
-thema_168:
+topic_168:
+  body: Dresden ermöglicht Baumpatenschaften.
+  tags:
+  - tag_14
   id: 168
-  body: "Die Stadt Dresden setzt sich dafür ein, dass bei zukünftigen Wahlen auf kommunaler Ebene alle Menschen, die in der Kommune ihren Hauptwohnsitz haben, auch wahlberechtigt sind." 
-  tags: ["Beteiligung"]
-thema_169:
+topic_169:
+  body: Dresden bepflanzt den öffentlichen Raum im größeren Rahmen.
+  tags:
+  - tag_14
   id: 169
-  body: "Im Rahmen der Errichtung einer kommunalen Wohnungsgesellschaft prüft die Stadt Dresden auch die Rekommunalisierung von Gagfah-Wohnungen." 
-  tags: ["Wohnen" , "Soziales"]
-thema_170:
+topic_170:
+  body: Dresden stellt Tauschschränke (für Kleidung, Bücher etc.) auf.
+  tags:
+  - tag_14
   id: 170
-  body: "Im Rahmen der Errichtung einer kommunalen Wohnungsgesellschaft strebt die Stadt die Errichtung von MieterInnenbeiräten an." 
-  tags: ["Wohnen" , "Beteiligung"]
-thema_171:
+topic_171:
+  body: Dresden sät in ausgewählten öffentlichen Grünflächen Insekten-freundliche
+    und mehrjährige Pflanzen, zum Beispiel Lavendel.
+  tags:
+  - tag_14
   id: 171
-  body: "Anlässlich des Christopher Street Days wird als Zeichen gegen Homo- und Transphobie am Dresdner Rathaus die Regenbogenflagge gehisst." 
-  tags: ["Lebensweisen"]
-thema_172:
+topic_172:
+  body: Dresden sorgt dafür, dass keine Stromsperren mehr verhängt werden.
+  tags:
+  - tag_15
   id: 172
-  body: "Die Stadt Dresden richtet einen Runden Tisch ein, der zur Gleichstellung von vielfältigen Lebensweisen mit sachkundigen Bürgerinnen und Bürgern grundsätzliche und aktuelle Themen und Probleme von Lesben, Schwulen, Bisexuellen, Transsexuellen, Transgendern und Intersexuellen (LSBTTI) erörtert." 
-  tags: ["Lebensweisen"]
-thema_173:
+topic_173:
+  body: Dresden hebt das Bettelverbot für Kinder wieder auf.
+  tags:
+  - tag_15
   id: 173
-  body: "Um Eltern intersexueller Kinder sowie pädagogische Fachkräfte umfassend und individuell zu beraten, zu unterstützen und Hilfe zu leisten, wird eine kommunale Beratungsstelle eingerichtet. Der Ausbau von Selbsthilfegruppen wird gefördert, die Kooperation mit Initiativen und Verbänden auf diesem Gebiet wird ausgebaut." 
-  tags: ["Lebensweisen"]
-thema_174:
+topic_174:
+  body: Dresden erhöht die Anzahl der Streetworker zum Ersatz oder zur Begleitung
+    des kommunalen Vollzugsdienstes.
+  tags:
+  - tag_15
   id: 174
-  body: "Dresden fördert ein enges Zusammenwirken zwischen den Dresdner Forschungseinrichtungen und der Dresdner Wirtschaft, mit dem Ziel innovative Ergebnisse der Forschung so aufzubereiten, dass sie von Dresdner Firmen produziert werden." 
-  tags: ["Wirtschaft" , "Wirtschaft"]
-thema_175:
+topic_175:
+  body: Dresden verringert den Betreuungsschlüssel in Kitas und erhöht gleichzeitig
+    die Anzahl der Erzieher*innen und Sozialassistent*innen deutlich.
+  tags:
+  - tag_15
   id: 175
-  body: "Dresden unterstützt aller kommunalen Initiativen nach einer höheren Beteiligung der Kommunen am Länderfinanzausgleich." 
-  tags: ["Beteiligung"]
-thema_176:
+topic_176:
+  body: Dresden stockt das Personal der Integrationsberatungsstellen deutlich auf.
+  tags:
+  - tag_15
   id: 176
-  body: " In den Ortsamtsbereichen sollte mindestens eine städtische Turnhalle mit ZuschauerInnentribüne gebaut werden, um Senioren-, Reha- und Freizeitsport unabhängiger von der Nutzung der Schulsporthallen gestalten zu können." 
-  tags: ["Sport" , "Stadtentwicklung" , "SeniorInnen" , "Bildung"]
-thema_177:
+topic_177:
+  body: Dresden nutzt die Beratungskapazitäten der Integrationsbertungsstellen auch
+    für länger ansässige Einwohner*innen.
+  tags:
+  - tag_15
   id: 177
-  body: "AuftragnehmerInnen städtischer Unternehmen haben wichtige Kriterien eines nachhaltigen und ökologischen Handelns zu berücksichtigen." 
-  tags: ["Wirtschaft" , "Arbeit" , "Umwelt"]
-thema_178:
+topic_178:
+  body: Dresden ermöglicht bei Familiennachzug-Familien einen Begrüßungsbesuch des
+    örtlichen Trägers der Flüchtlingssozialarbeit.
+  tags:
+  - tag_15
   id: 178
-  body: "Die Stadt Dresden fördert und unterstützt alle Sportvereine der Stadt gemäß ihrer Bedeutung und Rolle in der Stadtgesellschaft und der Zahl ihrer aktiven Mitglieder." 
-  tags: ["Sport"]
-thema_179:
+topic_179:
+  body: Dresden etabliert eine Soziale Verfahrensberatung.
+  tags:
+  - tag_15
   id: 179
-  body: "Die Stadt bietet regelmäßig ein offenes Begegnungsforum an, auf dem Dresdner Unternehmen und die hier ansässigen Forschungseinrichtungen den freien Austausch pflegen und Kooperationen vereinbaren können." 
-  tags: ["Wirtschaft" , "Wissenschaft"]
-thema_180:
+topic_180:
+  body: Dresden nutzt alle verfügbaren Mittel, um den weitere Anstieg der Mieten abzubremsen.
+  tags:
+  - tag_15
   id: 180
-  body: " Dresden stellt den Verkehrsbau um vom Neuausbau von Verbindungsstraßen hin zur Erhaltung des Nebenstraßennetzes und von Fußwegen und dem intensiven Ausbau von Radwegen." 
-  tags: ["Mobilität" , "Stadtentwicklung" , "Umwelt"]
-thema_181:
+topic_181:
+  body: Dresden deklariert sich als Sanctuary City (vgl. Barcelona). Über Kirchenasyle
+    wird öffentlich informiert.
+  tags:
+  - tag_15
   id: 181
-  body: " Dresden berücksichtigt bei Bebauungsplänen zur Erweiterung des TU-Campus die Bedürfnisse der Anwohnerinnen und Anwohner." 
-  tags: ["Wohnen" , "Stadtentwicklung" , "Wissenschaft"]
-
-
-
-
-
-
-
-
-
-
-
+topic_182:
+  body: Dresden arbeitet nach dem Housing-first-Prinzip.
+  tags:
+  - tag_15
+  id: 182
+topic_183:
+  body: Dresden fördert die Arbeit von Hebammen, um Frauen die Wahlfreiheit der außerklinischen
+    Geburt zu ermöglichen.
+  tags:
+  - tag_15
+  id: 183
+topic_184:
+  body: Dresden sorgt dafür, dass das Frauenschutzhaus barrierefrei umgebaut wird.
+  tags:
+  - tag_15
+  id: 184
+topic_185:
+  body: Dresden setzt sich dafür ein, dass die Männerschutzwohnung erhalten bleibt.
+  tags:
+  - tag_15
+  id: 185
+topic_186:
+  body: Dresden schafft eine zentrale Beratungsstelle für Menschen, die sich um pflegebedürftige
+    Angehörige kümmern.
+  tags:
+  - tag_15
+  id: 186
+topic_187:
+  body: Dresden baut die städtische Wohnberatungsstelle aus und ergänzt einen Schauraum
+    für seniorengerechte Umbaumöglichkeiten in der eigenen Wohnung.
+  tags:
+  - tag_15
+  id: 187
+topic_188:
+  body: Dresden verbessert die Wohnbedingungen für Geflüchtete.
+  tags:
+  - tag_15
+  id: 188
+topic_189:
+  body: Dresden sorgt dafür, dass Geflüchtete im gesamten Stadtgebiet dezentral untergebracht
+    werden können.
+  tags:
+  - tag_15
+  id: 189
+topic_190:
+  body: Dresden sichert vor Ablauf der Bindungsfrist der 10.000 Belegwohnungen deren
+    Fortbestand bis 2036.
+  tags:
+  - tag_15
+  id: 190
+topic_191:
+  body: Dresden setzt sich dafür ein, dass ausreichend Wohnungen als sogenannte Trainingswohnungen
+    für Obdachlose zur Verfügung stehen.
+  tags:
+  - tag_15
+  id: 191
+topic_192:
+  body: Dresden gewährt allen Asylsuchenden einen kostenlosen Sprachkurs.
+  tags:
+  - tag_15
+  id: 192
+topic_193:
+  body: Dresden setzt sich in der Bundes- und Landespolitik für die Verbesserung der
+    rechtlichen Situation von Asylsuchenden ein.
+  tags:
+  - tag_15
+  id: 193
+topic_194:
+  body: Dresden sorgt dafür, dass Kantinen in öffentlichen Einrichtungen ihre nicht
+    mehr zu verkaufenden Lebensmittel an den „Dresdner Tafel e.V.“ spenden.
+  tags:
+  - tag_15
+  id: 194
+topic_195:
+  body: Dresden bemüht sich, ehemalige Asylbewerberunterkünfte als Sozialwohnungen
+    zu nutzen.
+  tags:
+  - tag_15
+  id: 195
+topic_196:
+  body: Dresden richtet niederschwellige Schutzräume für Obdachlose ein.
+  tags:
+  - tag_15
+  id: 196
+topic_197:
+  body: Dresden klärt ideologie- und vorurteilsfrei über Drogen auf.
+  tags:
+  - tag_15
+  id: 197
+topic_198:
+  body: Dresden wird seine Fundsachen nicht mehr versteigern sondern gegen eine freiwillige
+    Spende abgeben.
+  tags:
+  - tag_15
+  id: 198
+topic_199:
+  body: Dresden schafft Angebote für  Pillenwarnungen und Drug Checking flächendeckend,
+    vor allem aber an Schulen und Jugendfreizeitzentren.
+  tags:
+  - tag_15
+  id: 199
+topic_200:
+  body: Dresden richtet Drogenkonsumräume ein.
+  tags:
+  - tag_15
+  id: 200
+topic_201:
+  body: Dresden muss mal dem inkompetenten Ausländerrat des Landes eins auf den Deckel
+    geben!
+  tags:
+  - tag_15
+  id: 201
+topic_202:
+  body: 'Betreuungsschlüssel in Dresdner Kitas zu verringern ist eine tolle Sache,
+    aber es ist ein Skandal, dass Kitaplatz in Dresden das dreifache im Vergleich
+    zu München kostet: https://www.presseportal.de/pm/122186/3615261. Deswegen wünschen
+    sich die Wähler*innen in Dresden mehr leistbare Kitaplätze.'
+  tags:
+  - tag_15
+  id: 202
+topic_203:
+  body: Vom Bau neuer Sozialwohnungen ist kein Wort. Warum?
+  tags:
+  - tag_15
+  id: 203
+topic_204:
+  body: Dresden macht die Sportstätten von Schulen nach deren Schließzeit für die
+    Bevölkerung zugänglich.
+  tags:
+  - tag_16
+  id: 204
+topic_205:
+  body: Dresden erhält die Schwimmhalle Klotzsche und die Sporthalle durch Sanierung
+    oder Neubau in Klotzsche.
+  tags:
+  - tag_16
+  id: 205
+topic_206:
+  body: Dresden erhält die Kiesseen und macht sie für Naturschutz und Naherholung
+    nutzbar.
+  tags:
+  - tag_16
+  id: 206
+topic_207:
+  body: Dresden sorgt dafür, dass es in jedem Stadtteil mindestens einen wohnortnahen
+    Multifunktionssportplatz gibt.
+  tags:
+  - tag_16
+  id: 207
+topic_208:
+  body: Dresden trägt dafür Sorge, dass das Sachsenbad als Bad wieder errichtet wird.
+  tags:
+  - tag_16
+  id: 208
+topic_209:
+  body: Dresden sorgt dafür, dass das Baden in der Elbe sicher ist. Die Beschilderung
+    soll mehrsprachig erfolgen.
+  tags:
+  - tag_16
+  id: 209
+topic_210:
+  body: Dresden erhält das Marienbad.
+  tags:
+  - tag_16
+  id: 210
+topic_211:
+  body: Dresden öffnet die Flächen seiner Freibäder auch ausserhalb der Badesaison
+    zum Sonnenbaden.
+  tags:
+  - tag_16
+  id: 211
+topic_212:
+  body: Dresden richtet an den Elbufern ausgewiesene Liegeflächen für die FKK-Nutzung
+    ein.
+  tags:
+  - tag_16
+  id: 212
+topic_213:
+  body: Dresden führt ein aktives Brachflächenmanagement ein und kooperiert dabei
+    mit Initiativen, Wagenplätzen und Stadtgärten.
+  tags:
+  - tag_16
+  id: 213
+topic_214:
+  body: '"Dresden richtet nach dem Vorbild von ""Calisthenics Parks"" kostenlose Freiluft-Fitness-Studios
+    in dicht-besiedelten Wohngebieten ein."'
+  tags:
+  - tag_16
+  id: 214
+topic_215:
+  body: '"""Dresden gestaltet das Areal des Südparks sehr behutsam um, damit die dort
+    entstandenen Naturräume als Naherholung erlebbar bleiben."""'
+  tags:
+  - tag_16
+  id: 215
+topic_216:
+  body: Dresden sorgt in seiner kommunalen Wohnungsgenossenschaft dafür, dass bei
+    Neu- und Altbauten mehr barrierefreier Wohnraum zu fairen Mietpreisen angeboten
+    wird.
+  tags:
+  - tag_17
+  id: 216
+topic_217:
+  body: Dresden bepflanzt öffentliche Gebäude zur Luftreinhaltung mit rankenden Pflanzen
+    und Moosplatten.
+  tags:
+  - tag_17
+  id: 217
+topic_218:
+  body: Dresden richtet ein Gelände für mobile und experimentelle Wohnformen (Wagenplatz)
+    ein.
+  tags:
+  - tag_17
+  id: 218
+topic_219:
+  body: Dresden errichtet Lärmschutzwände entlang der Bahnlinie am Haltepunkt Dresden-Bischofsplatz.
+  tags:
+  - tag_17
+  id: 219
+topic_220:
+  body: Dresden fördert mehr öffentliche und private Bauherren bei der Stiftung von
+    Kunst am Bau.
+  tags:
+  - tag_17
+  id: 220
+topic_221:
+  body: Dresden sorgt im Rahmen seiner Möglichkeiten dafür, dass Schulwege kurz sowie
+    sicher sind.
+  tags:
+  - tag_17
+  id: 221
+topic_222:
+  body: Dresden nutzt die Methode der Planungsmediation bei Stadtentwicklung und Bauprojekten
+  tags:
+  - tag_17
+  id: 222
+topic_223:
+  body: Dresden fordert bei jedem Wohnungsneubau die Schaffung von alters- und behindertengerechten
+    Wohnungen.
+  tags:
+  - tag_17
+  id: 223
+topic_224:
+  body: Dresden fördert gemeinschaftliches Wohnen und schreibt jährlich mindestens
+    5 Grundstücke nach Konzept aus.
+  tags:
+  - tag_17
+  id: 224
+topic_225:
+  body: Dresden richtet mehr autofreie Zonen ein.
+  tags:
+  - tag_17
+  id: 225
+topic_226:
+  body: Dresden bemüht sich um die Rekommunalisierung früherer städtischer Wohnungen.
+  tags:
+  - tag_17
+  id: 226
+topic_227:
+  body: Dresden bemüht sich, bei Nachverdichtungen im Wohnungsbau verloren gegangene
+    Funktionsflächen (Spielplätze, Wäschtrockenwiesen etc.) ortsnah zu ersetzen.
+  tags:
+  - tag_17
+  id: 227
+topic_228:
+  body: Dresden erzeugt ein besseres innerstädtisches Klima, indem es auf ausgewählten
+    Straßen und Plätzen auf dunkle Asphaltierung verzichtet und stattdessen helle
+    nimmt.
+  tags:
+  - tag_17
+  id: 228
+topic_229:
+  body: Dresden verzichtet darauf, für Wohnungsbau geeignete Grundstücke zu veräußern,
+    sofern sie zur Entwicklung durch die städtische WiD grundsätzlich geeignet sind
+  tags:
+  - tag_17
+  id: 229
+topic_230:
+  body: Dresden sorgt für mehr Grünflächen in der Innenstadt.
+  tags:
+  - tag_17
+  id: 230
+topic_231:
+  body: "*Zur Verbesserung der städtischen Wohnqualität achtet die Stadt, darauf,
+    dass künftig in der Bausatzung Festlegungen getroffen werden, das bei allen Neubauten
+    neben ausreichenden Fahrradparkplätzen auch Spielplätze und Grünflächen bzw. Flächen
+    zum Verweilen für die Mieter geschaffen werden. Wenn Spielplätze oder Grünflächen
+    für Neubauten verschwinden, müssen die Investoren bei ihren Neubauten Ersatz schaffen.
+    Nur in begründeten Ausnahmefällen können sie an anderer Stelle Ersatz schaffen.
+    Ersatz müssen sie in jedem Fall schaffen. Die in der Stadt ohnehin knapp bemessenen
+    Fußwege dürfen durch Neubauten nicht noch schmaler werden! Die Stadt schreibt
+    in ihrer Bausatzung Mindestbreiten für Fuß- und Radwege fest!"
+  tags:
+  - tag_17
+  id: 231
+topic_232:
+  body: "*In keinem Fall lässt sich die Stadt Dresden mehr von den Plänen der Investoren
+    vorschreiben, an welcher Stelle beispielsweise die Gleise für die Straßenbahnen
+    verlegt werden oder an welchen Stelle Spielplätze oder Grünflächen weichen müssen,
+    um Neubauten Platz zu verschaffen. Die Bedürfnisse der Straßenbahnreisenden sind
+    bei der Stadtplanung ebenso zu berücksichtigen. Das gilt für die Stadtplanung
+    insgesamt: Nicht die Interessen der Investoren bestimmen die Stadtplanung, sondern
+    die Interessen der Bürger und Bürgerinnen! Die Interessen der Schwächsten sind
+    die Interessen der Stadt!"
+  tags:
+  - tag_17
+  id: 232
+topic_233:
+  body: "*Dresden schafft die sog. Drückerampeln in der Stadt ab! Dresden verabschiedet
+    sich von seinen Drückerampeln! Sie sind fachlich eigentlich nur an solchen Stellen
+    mit wenig Fußgängerverkehr vorgesehen, haben sich aber in der Stadt aufgrund der
+    jahrelangen Bevorzugung des Autoverkehrs in der Planung (Fußgänger und Radfahrer
+    stören nur den Fluss des Autoverkehrs!) flächendeckend verbreitet und sind nur
+    dazu geeignet, Fußgänger zu diskriminieren. Diese sind beispielsweise bezwungen,
+    mit zwei Kindern an der einen und dem Einkauf an der anderen Hand noch eine dritte
+    Hand freizubekommen, um die Drückerampel zu betätigen. Zusätzlich ist dies auch
+    im Sinne der Tourismusförderung: man sieht in der Altstadt jede Menge ratlose
+    Touristen, die minutenlang an den Ampeln warten weil sie nicht wissen, dass man
+    in Dresden als Fußgänger nur über die Straße kommt wenn man an die Ampel drückt!"
+  tags:
+  - tag_17
+  id: 233
+topic_234:
+  body: "*Dresden verabschiedet sich davon, dass alle Einfahrten mit rundem Pflaster
+    gepflastert werden. Das sieht zwar schön vom Autofenster aus, ist aber für Behinderte
+    und ältere Fußgänger nicht geeignet. (Die Rollstuhlfahrer, die sowieso schon Schmerzen
+    haben werden beispielsweise noch zusätzlich durchgerüttelt und ältere Fußgänger
+    können vor Schmerzen kaum auf dem Kopfsteinpflaster laufen.) Wenn gepflastert
+    werden muss, dann bitte mit glattem Pflaster. Das gibt es nämlich auch! Und: alte
+    Sünden bitte nachrüsten!"
+  tags:
+  - tag_17
+  id: 234
+topic_235:
+  body: "\"*Auf allen Fußwegen werden durchgehend glatte Platten oder glattes Pflaster
+    (ja, wie zu DDR-Zeiten üblich!) verlegt, keine Unterbrechung durch eine Zier mit
+    rundem Pflaster mehr! Keine Autofahrersicht bitte mehr auf den Bau von Fußwegen!
+    Fußwege sind keine Zierrat für Straßen"
+  tags:
+  - tag_17
+  id: 235
+topic_236:
+  body: "*Diese Grundsätze werden bei jedem neuen Fußweg berücksichtigt und bei bereits
+    falsch gebauten Fußwegen nachzubessern. Qualitätskontrolle der Straßenbauten sollte
+    sich nicht nur auf die Straßen sondern auch auf die Fußwege erstrecken. Dort sind
+    die Schwächsten unterwegs!"
+  tags:
+  - tag_17
+  id: 236
+topic_237:
+  body: "*Zur Verbesserung des Radverkehrs in Dresden richtet die Stadt Dresden in
+    Straßen und auf Brücken, die kaum vom Fußgängerverkehr frequentiert werden oder
+    die breit genug sind, um Fußgänger nicht zu gefährden, die Möglichkeit ein, dass
+    dieselben von Radfahrern und Radfahrerinnen auch entgegen der eigentlichen Fahrtrichtung
+    befahren werden können."
+  tags:
+  - tag_17
+  id: 237
+topic_238:
+  body: "*Von der Stadt beauftragte Baufirmen bzw. in der Stadt tätige Baufirmen dürfen
+    mit ihren schweren Baufahrzeugen nicht mehr auf Fußwegen parken! Dies wird vertraglich
+    festgelegt, kontrolliert und ggf. sanktioniert! Oder: alle von der Stadt beauftragten
+    Baufirmen müssen eine Pauschalsumme für die Instandsetzung der von ihnen während
+    ihrer Bautätigkeit zerstörten Fußwege bezahlen, damit die Stadt dieselben wieder
+    instand setzen kann! Die Stadt überprüft bei jeder Baumaßnahme den Zustand der
+    Fußwege vor und nach der Baumaßnahme und setzt sie ggf. wieder kurz danach instand.
+    Es ist bisher gängige Praxis, dass von den Baufirmen oftmals die Fußwege, die
+    sie manchmal kurz vorher erst selbst neu gebaut haben, durch ihre Baufahrzeuge
+    wieder zerstört werden!"
+  tags:
+  - tag_17
+  id: 238
+topic_239:
+  body: "*Dresden verdoppelt die Zeiten, die den Fußgängern, Rollstuhlfahrern u. a.
+    zur Überquerung der Straße eingeräumt werden! Fußgänger, Rollstuhlfahrer und Radfahrer
+    werden gleichberechtigt bei den Ampelschaltungen berücksichtigt! Kein Fußgänger
+    muss mehr eine Drückerampel betätigen! Was für Busse und Straßenbahnen endlich
+    durchgesetzt wurde, muss auch für Fußgänger, Rollstuhlfahrer und Radfahrer gelten!
+    Wir setzen uns gegen die Diskriminierung der schwächsten Verkehrsteilnehmer in
+    Dresden ein! Jeder Fußgänger oder Rollstuhlfahrer hat Anspruch darauf, so automatisch
+    wie die Autofahrer bei der Ampelschaltung berücksichtigt zu werden!"
+  tags:
+  - tag_17
+  id: 239
+topic_240:
+  body: "*Die Stadt Dresden überprüft, ob die Straßenbaufirmen bzw. deren Mitarbeiter
+    nur Straßen richtig bauen können oder ob sie auch eine Ausbildung im Bau von Fußwegen
+    haben. (Das ist durchaus ernst gemeint!) Dresden baut Fußwege in derselben Qualität
+    wie die Straßen! Dresden organisiert eine zusätzliche Ausbildung der Straßenbauer
+    (oder kennt ihr auch Fußwegebauer?) in Zusammenarbeit beispielsweise mit der TU
+    Dresden. Das gilt auch für Radwege! Alle Verkehrsteilnehmer sind gleichberechtigt!
+    Ebenso gleichberechtigt sollten die finanziellen Mittel für den Straßen-, Fußwege-
+    und Radwegebau bzw. für den Bau von Spielplätzen, Grünanlagen usw. verteilt werden."
+  tags:
+  - tag_17
+  id: 240
+topic_241:
+  body: "*Dresden setzt sich dafür ein, dass es für die Bürgerinnen und Bürger bzw.
+    die Touristen genügend Sitzplätze gibt, ohne dass man dafür einen Kaffee bestellen
+    muss. Mehr Bänke für Dresden! Dies gilt auch für die Parks, Bahnhöfe usw.!"
+  tags:
+  - tag_17
+  id: 241
+topic_242:
+  body: "*Bei der Benennung von Straßen in Dresden sind mehr Frauen und Menschen zu
+    berücksichtigen, die sich für die Demokratie eingesetzt oder Zivilcourage bewiesen
+    haben. Und das nicht nur bei kurzen Straßen und solchen Straßen, die „jwd“ liegen,
+    sondern durchaus im Zentrum oder auf Hauptstraßen! Ebenso sind hier Kommunisten
+    und Antifaschisten zu berücksichtigen!"
+  tags:
+  - tag_17
+  id: 242
+topic_243:
+  body: "*Dresden verabschiedet sich bei der Herstellung der Barrierefreiheit davon,
+    dass alle abgesenkten Bordsteine gepflastert werden. Die Absenkung der Bordsteine
+    für Fußgänger bzw. Rollstuhlfahrer wird dem Niveau bei den Absenkungen der Radwege
+    angeglichen. Keine Absenkung wird mehr mit Kopfsteinpflaster gepflastert! (Was
+    soll das?) Die Absenkungen müssen grundsätzlich neu gedacht, geplant bzw. verbessert
+    werden! Zusammen mit Behindertenverbänden, ADFC, Fuß e.V. usw.!"
+  tags:
+  - tag_17
+  id: 243
+topic_244:
+  body: "*Für das Kraftwerk Mitte wird ein umsetzbares und sinnvolles Parkkonzept
+    erarbeitet und umgesetzt."
+  tags:
+  - tag_17
+  id: 244
+topic_245:
+  body: '"""Dresden setzt alle verfügbaren Mittel und Methoden ein, um die soziale
+    Durchmischung in den Wohngebieten zu erhalten bzw. zu erreichen."""'
+  tags:
+  - tag_17
+  id: 245
+topic_246:
+  body: Dresden setzt sich für einen eintrittsfreien Schlosspark Pillnitz ein.
+  tags:
+  - tag_18
+  id: 246
+topic_247:
+  body: Dresden schafft ein durchgängiges Rad- und Wanderwegesystem im Hochland.
+  tags:
+  - tag_18
+  id: 247
+topic_248:
+  body: Dresden ermöglicht die Nutzung der Dresden Card als Fahrschein für den ÖPNV
+    und evtl. zur Nutzung der SZ-Bikes.
+  tags:
+  - tag_18
+  id: 248
+topic_249:
+  body: Dresden pflanzt mehr Frühblüher entlang der Elbwiesen, damit diese im Frühling
+    bunt erstrahlen können.
+  tags:
+  - tag_18
+  id: 249
+topic_250:
+  body: Dresden installiert vor wichtigen Gebäuden Stelen mit Braille-Schrift, auf
+    denen die wichtigsten Daten des Gebäudes zu lesen sind.
+  tags:
+  - tag_18
+  id: 250
+topic_251:
+  body: Dresden fördert Vermieter, die eine Anzahl von Arbeitsräumen für Künstler_innen
+    und Kreativwirtschaftende anbieten (vermieten).
+  tags:
+  - tag_19
+  id: 251
+topic_252:
+  body: Dresden wird die Bettensteuer in gleicher Höhe beibehalten.
+  tags:
+  - tag_19
+  id: 252
+topic_253:
+  body: Dresden erstellt ein Ansiedlungsprogramm für Kreativwirtschaft in Dresden.
+  tags:
+  - tag_19
+  id: 253
+topic_254:
+  body: Dresden führt eine Startup-Förderung für kreative Berufe (alle Branchen der
+    Kreativwirtschaft) ein.
+  tags:
+  - tag_19
+  id: 254
+topic_255:
+  body: Dresden vergibt städtische Aufträge nur an solche Unternehmen, die Tariflohn,
+    mindestens aber 12€ pro Stunde zahlen.
+  tags:
+  - tag_19
+  id: 255
+topic_256:
+  body: Dresden koppelt städtische Aufträge an strenge soziale und ökologische Standards.
+  tags:
+  - tag_19
+  id: 256
+topic_257:
+  body: Dresden berücksichtigt die Gemeinwohlökonomie bei Ausschreibungen als Kriterium.
+  tags:
+  - tag_19
+  id: 257
+topic_258:
+  body: Dresden setzt das Neuverschuldungsverbot in definierten Fällen (Daseinsvorsorge,
+    Projekte, die sich nie rentieren können, aber für gesellschaftlich wichtig gehalten
+    werden) aus.
+  tags:
+  - tag_19
+  id: 258
+topic_259:
+  body: Dresden wendet das anonyme Bewerbungsverfahren an.
+  tags:
+  - tag_19
+  id: 259
+topic_260:
+  body: Dresden setzt sich für faire Beschaffung ein.
+  tags:
+  - tag_19
+  id: 260
+topic_261:
+  body: Dresden verhindert im Rahmen seiner Möglichkeiten Kriegsproduktion und Kriegsforschung
+    auf seinem Territorium.
+  tags:
+  - tag_19
+  id: 261
+topic_262:
+  body: Dresden erweitert die Kreativraumförderung um einen  Mietzuschuss für die
+    Arbeitsräume von Kultur- und Kreativwirtschaftenden.
+  tags:
+  - tag_19
+  id: 262
+topic_263:
+  body: besondere Aufmerksamkeit für die veränderte Lebenssituation, für Belange und
+    Aktivitäten älterer Bürgerinnen und Bürger nach deren Ausscheiden aus dem Arbeitsprozess
+    durch die Stadtgesellschaft.
+  tags:
+  - tag_20
+  id: 263
+topic_264:
+  body: Nutzung bekannter und Erschließung neuer kommunaler Möglichkeiten zur Abschwächung
+    von Altersarmut und altersbedingter Benachteiligung.
+  tags:
+  - tag_20
+  id: 264
+topic_265:
+  body: Durchsetzung einer Fußwegkonzeption zur Erleichterung der Teilnahme von mobilitätseingeschränkten
+    Bürgerinnen und Bürger am gesellschaftlichen leben unserer Stadt.
+  tags:
+  - tag_20
+  id: 265
+topic_266:
+  body: Förderung aller Initiativen und Angeboten seniorenfreundlicher Dienstleistungen
+    in den Bereichen Verkehr, Einkauf, Haushalt, Umzug,
+  tags:
+  - tag_20
+  id: 266
+topic_267:
+  body: Unterstützung und Zusammenarbeit mit aller Sozialverbänden, Gemeinnützigen
+    Vereine, Wohlfahrtsverbänden, Stiftungen, Initiativen die sich der Pflege und
+    Betreuung betagter Bürgerinnen und Bürger widmen.
+  tags:
+  - tag_20
+  id: 267
+topic_268:
+  body: Verbesserung der Aufklärung über Angebote und Möglichkeiten der Gesundheitsvorsorge
+    und Gesundheitsfürsorge für Bürgerinnen und Bürger im fortgeschrittenen Lebensalter.
+  tags:
+  - tag_20
+  id: 268
+topic_269:
+  body: Achtung auf schnelle und nachhaltige Hilfe in Fällen dringlich benötigtem
+    altersgerechtem Wohnraums
+  tags:
+  - tag_20
+  id: 269
+topic_270:
+  body: "- Dresden aktiviert und begeistern für den Frieden."
+  tags:
+  - tag_21
+  id: 270
+topic_271:
+  body: "- Dresden klärt die Menschen über Ursachen und Folgen von Kriegen auf."
+  tags:
+  - tag_21
+  id: 271
+topic_272:
+  body: "- Dresden setzt sich für eine Umstellung der Wirtschaft zu einer zivilen
+    und friedensfördernden Wirtschaft sowie für ein Verbot von Rüstungsexporten ein."
+  tags:
+  - tag_21
+  id: 272
+topic_273:
+  body: "- Dresden sollte zu einer Stadt des Friedens werden."
+  tags:
+  - tag_21
+  id: 273
+topic_274:
+  body: Aktivitätenplan zur Verdrängung der Produktion von Forschung und Entwicklung
+    von Rüstungsmaterial aus der Stadt, wie Elbe-Flugzeugwerk u.a, gemeinsam mit unsere
+    Kooperationspartnern DGB und Betriebsräten, IHK (Mail 3.5.18, Rolf Klemm)
+  tags:
+  - tag_21
+  id: 274
+topic_275:
+  body: Aufruf an die Bevölkerung sowie die Parlamente der Partner- und weitere Städte
+    in der EU und USA (Rolf Klemm)
+  tags:
+  - tag_21
+  id: 275
+topic_276:
+  body: Forschungseinrichtungen und Betriebe, die dem Rüstungsexport dienen, sind
+    im Verantwortungsbereich des Stadtrates nicht zu genehmigen (Joachim Geerhardt)
+  tags:
+  - tag_21
+  id: 276
+topic_277:
+  body: Dresden stellt der Bundeswehr auf dem Stadtfest und anderen städtischen Veranstaltungen
+    keine Werbe- und Rekrutierungsmöglichkeiten zur Verfügung. (Christopher Colditz)
+  tags:
+  - tag_21
+  id: 277
+topic_278:
+  body: Dresden sorgt für ein gänzlich neu erarbeitetes Handlungskonzept zur Inklusion
+    von Menschen mit Migrationshintergrund in städtischen Strukturen.
+  tags:
+  - tag_22
+  id: 278
+topic_279:
+  body: Dresden setzt sich für ein Schulsystem ein, welches nicht auf Auslese setzt,
+    sondern auf eines bei dem sich Schüler_innen altersübergreifend gegenseitig helfen
+    und fördern.
+  tags:
+  - tag_22
+  id: 279
+topic_280:
+  body: Dresden macht vegane und vegetarische Ernährung attraktiver, in dem die Preise
+    fleischhaltiger Speisen erhöht werden und eine Quersubventionierung eingeführt
+    wird.
+  tags:
+  - tag_22
+  id: 280
+topic_281:
+  body: Dresden gestaltet die Überquerung des Blauen Wunders gefahrlos für alle Verkehrsteilnehmer
+  tags:
+  - tag_22
+  id: 281
+topic_282:
+  body: Dresden sichert eine tarifliche Bezahlung bei Angestellten der Museen.
+  tags:
+  - tag_22
+  id: 282
+topic_283:
+  body: Dresden trägt dafür Sorge, daß die Bestimmmungen des Bundesteilhabegesetzes
+    auch in seiner eigenen Werkstatt des städtischen Unternehmens „Cultus gGmbH“ umgesetzt
+    werden.
+  tags:
+  - tag_22
+  id: 283
+topic_284:
+  body: Dresden fördert in der kommunalen Werkstatt, für behinderte Menschen, dass
+    mehr Menschen mit Behinderungen fit gemacht werden für den allgemeinen Arbeitsmarkt.
+  tags:
+  - tag_22
+  id: 284
+topic_285:
+  body: Dresden fördert im Rahmen ihrer Möglichkeiten behindertenpolitische Netzwerkarbeit
+    und Vereine, die im inklusiven Spektrum, (damit ist auch das kulturelle Spektrum
+    gemeint), tätig sind.
+  tags:
+  - tag_22
+  id: 285
+topic_286:
+  body: Dresden überarbeitet die Gehölzschutzsatzung im Sinne des Naturschutzes.
+  tags:
+  - tag_22
+  id: 286
+topic_287:
+  body: Dresden achtet darauf, dass das Radverkehrskonzept bei jeder Baumaßnahme im
+    öffentlichen Raum Beachtung findet.
+  tags:
+  - tag_22
+  id: 287
+topic_288:
+  body: Dresden errichtet mehr  Spielplätze/ Skaterplätze für Jugendliche, darunter
+    auch barrierefreie Spielplätze.
+  tags:
+  - tag_22
+  id: 288
+topic_289:
+  body: Dresden erweitert die Möglichkeiten, Räume in öffentlichen Gebäuden durch
+    Dritte zu nutzen und macht dies öffentlich bekannt.
+  tags:
+  - tag_22
+  id: 289
+topic_290:
+  body: Dresden setzt die Sanierung der Schulen zügig um und schafft weitere Auslagerungsstandorte.
+  tags:
+  - tag_22
+  id: 290
+topic_291:
+  body: Dresden führt die Sanierung und den Neubau der Kindertagesstätten zügig fort.
+  tags:
+  - tag_22
+  id: 291
+topic_292:
+  body: Dresden unterstützt urbanes Gärtnern.
+  tags:
+  - tag_22
+  id: 292
+topic_293:
+  body: Dresden versorgt Schülerinnen und Schüler mit einem kostenlosen, warmen und
+    gesunden Mittagessen.
+  tags:
+  - tag_23
+  id: 293
+topic_294:
+  body: Dresden vergibt keine Aufträge an Behindertenwerkstätten.
+  tags:
+  - tag_23
+  id: 294
+topic_295:
+  body: Dresden sorgt durch mögliche Einwendungen oder Überprüfungen baurechtlicher
+    Art  bei evtl. geplanten neuen Werkstätten dafür, dass diese nicht gebaut werden.
+  tags:
+  - tag_23
+  id: 295
+topic_296:
+  body: Dresden richtet jährlich ein großes multikulturelles Fest aus, um Kontakte
+    zu internationalen Bürgern zu vermitteln
+  tags:
+  - tag_23
+  id: 296
+topic_297:
+  body: Dresden ermöglicht den kostenlosen Kita-Besuch.
+  tags:
+  - tag_23
+  id: 297
+topic_298:
+  body: Dresden setzt den Ausbau der Ganztagsangebote an Schulen zügig fort.
+  tags:
+  - tag_23
+  id: 298
+topic_299:
+  body: Dresden vermeidet die Doppelnutzung von Hort- und Schulräumen
+  tags:
+  - tag_23
+  id: 299
+topic_300:
+  body: Dresden setzt sich dafür ein, dass Menschen, die in für sie selbst zu großen
+    Wohnungen leben, eine Umzugsbeihilfe erhalten, um in kleinere umzuziehen, bzw.
+    Teile ihrer Wohnung gefördert untervermieten oder in mehrere Wohneinheiten aufteilen
+    können.
+  tags:
+  - tag_23
+  id: 300
+topic_301:
+  body: Dresden sorgt dafür, dass genderneutrale Ampelmenschen angebracht werden.
+  tags:
+  - tag_23
+  id: 301
+topic_302:
+  body: Dresden ermöglicht Auszubildenden, Studierenden, Schüler*innen, Menschen im
+    Freiwilligendienst, Ermäßigungsberechtigten, Ehrenamtlichen und Azubis kostenlosen
+    Eintritt in städtische kulturelle Einrichtungen.
+  tags:
+  - tag_23
+  id: 302
+topic_303:
+  body: Dresden setzt sich für die Bereitstellung von kostenlosen, nicht hormonellen
+    Verhütungsmitteln ein
+  tags:
+  - tag_23
+  id: 303
+topic_304:
+  body: Dresden fördert ein Jugendparlament
+  tags:
+  - tag_23
+  id: 304
